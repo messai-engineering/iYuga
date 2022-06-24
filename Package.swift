@@ -23,6 +23,10 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "sYugaTests",
-            dependencies: ["sYuga"]),
+            dependencies: ["sYuga"],
+            resources: [
+                .copy("Resources/yuga_tests.json")
+            ]
+        ),
     ]
 )

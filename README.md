@@ -1,3 +1,3 @@
 # sYuga
 
-A description of this package.
+A Swift in implementation to Yuga.
