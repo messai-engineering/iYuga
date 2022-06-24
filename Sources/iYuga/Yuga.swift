@@ -1413,39 +1413,28 @@ public class Yuga {
                 } else {
                     if(map.get(Constants.TY_NUM) != nil && (map.get(Constants.TY_NUM)!.length() == 6 || map.get(Constants.TY_NUM)!.length() == 8) && config[Constants.YUGA_SOURCE_CONTEXT] != nil && config[Constants.YUGA_SOURCE_CONTEXT] == (Constants.YUGA_SC_ON) && (i >= str.length() || (str.charAt(i).asciiValue==Constants.CH_SPACE || str.charAt(i).asciiValue==Constants.CH_FSTP || str.charAt(i).asciiValue==Constants.CH_COMA))) {
                         if(map.get(Constants.TY_NUM)!.length() == 6) {
-                            do {
-                                let pattern = "([0-3][0-9])([0-1][0-9])([1-3][0-9])"
-                                let m = str.groups(for: pattern)
-                                if (m.count > 0) {
-                                    let nsString: NSString = str as NSString
-                                    let p_ : Pair<Int, FsaContextMap>? = parseInternal(m[1] + "-" + m[2] + "-" + m[3], config);
-                                    if (p_ != nil) {
-                                        i = p_!.getA()-2;//to makeup for two additional -
-                                        map = p_!.getB();
-                                    }
-                                } else {
-                                    map.setVal(name: "num_class", val: Constants.TY_NUM);
+                            let pattern = "([0-3][0-9])([0-1][0-9])([1-3][0-9])"
+                            let m = str.groups(for: pattern)
+                            if (m.count > 0) {
+                                let p_ : Pair<Int, FsaContextMap>? = parseInternal(m[1] + "-" + m[2] + "-" + m[3], config);
+                                if (p_ != nil) {
+                                    i = p_!.getA()-2;//to makeup for two additional -
+                                    map = p_!.getB();
                                 }
-                            } catch let error {
-                                print(error)
+                            } else {
                                 map.setVal(name: "num_class", val: Constants.TY_NUM);
                             }
                         } else if(map.get(Constants.TY_NUM)!.length() == 8) {
-                            do {
-                                let pattern = "([0-3][0-9])([0-1][0-9])([2][0-1][1-5][0-9])"
-                                let m = str.groups(for: pattern)
-                                if (m.count > 0) {
-                                    let nsString: NSString = str as NSString
-                                    let p_ : Pair<Int, FsaContextMap>? = parseInternal(m[1] + "-" + m[2] + "-" + m[3], config);
-                                    if (p_ != nil) {
-                                        i = p_!.getA()-2;//to makeup for two additional -
-                                        map = p_!.getB();
-                                    }
-                                } else {
-                                    map.setVal(name: "num_class", val: Constants.TY_NUM);
+                            let pattern = "([0-3][0-9])([0-1][0-9])([2][0-1][1-5][0-9])"
+                            let m = str.groups(for: pattern)
+                            if (m.count > 0) {
+                                let nsString: NSString = str as NSString
+                                let p_ : Pair<Int, FsaContextMap>? = parseInternal(m[1] + "-" + m[2] + "-" + m[3], config);
+                                if (p_ != nil) {
+                                    i = p_!.getA()-2;//to makeup for two additional -
+                                    map = p_!.getB();
                                 }
-                            } catch let error {
-                                print(error)
+                            } else {
                                 map.setVal(name: "num_class", val: Constants.TY_NUM);
                             }
                         }

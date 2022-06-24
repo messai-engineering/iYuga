@@ -1,3 +1,3 @@
-# sYuga
+# iYuga
 
-A Swift in implementation to Yuga.
+A Swift in implementation to Yuga for iOS

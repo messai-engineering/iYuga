@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "sYuga",
+    name: "iYuga",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "sYuga",
-            targets: ["sYuga"]),
+            name: "iYuga",
+            targets: ["iYuga"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -19,11 +19,11 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "sYuga",
+            name: "iYuga",
             dependencies: []),
         .testTarget(
-            name: "sYugaTests",
-            dependencies: ["sYuga"],
+            name: "iYugaTests",
+            dependencies: ["iYuga"],
             resources: [
                 .copy("Resources/yuga_tests.json")
             ]

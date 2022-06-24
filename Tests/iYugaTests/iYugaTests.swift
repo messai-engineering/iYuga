@@ -1,5 +1,5 @@
 import XCTest
-@testable import sYuga
+@testable import iYuga
 
 struct TestInput {
     let input: String
