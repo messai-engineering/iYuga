@@ -25,8 +25,9 @@ let package = Package(
             name: "iYugaTests",
             dependencies: ["iYuga"],
             resources: [
-                .copy("Resources/yuga_tests.json")
-            ]
+                            .copy("Resources/yuga_tests.json"),
+                            .copy("Resources/classifier_tests.json")
+                        ]
         ),
     ]
 )

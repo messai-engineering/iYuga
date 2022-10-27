@@ -76,8 +76,13 @@ public class FsaContextMap {
 
     //appending to prev value
     public func append(_ value : Character) {
-        let preVal: String = map[prevKey]!;
-        put(prevKey, preVal + String(value));
+        var preVal: String?
+        if map.isEmpty {
+            put(prevKey, String(value))
+        } else {
+            preVal = map[prevKey]
+            put(prevKey, preVal! + String(value))
+        }
     }
 
     public func append(_ value : String) {

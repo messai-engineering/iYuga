@@ -11,9 +11,17 @@ public class Pair<A, B> {
     public func getA() -> A {
         return a;
     }
+    
+    public func setA(_ a: A) {
+        self.a = a
+    }
 
     public func getB() -> B {
         return b;
+    }
+    
+    public func setB(_ b: B) {
+        self.b = b
     }
 }
 
