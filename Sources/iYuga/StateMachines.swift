@@ -86,7 +86,7 @@ import Foundation
         
         var state: Int = 1
         var i: Int = indRead - 1
-        var c: Character = Character("")
+        var c: Character
         var dotcounter: Int = 0
         
         while state > 0 && i < str.length() {

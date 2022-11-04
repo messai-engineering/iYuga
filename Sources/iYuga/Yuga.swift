@@ -767,7 +767,7 @@ public class Yuga {
                         if (c.asciiValue == Constants.CH_FSTP && ((i + 1) < str.length() && str.charAt(i + 1).isNumber)) {
                             let samt : String = map.get(map.getType()!)!;
                             if (samt.contains(".")) {
-                                let samtarr = samt.components(separatedBy: "\\.");
+                                let samtarr = samt.components(separatedBy: ".");
                                 if (samtarr.count == 2) {
                                     map.setType(type: Constants.TY_DTE);
                                     map.put(Constants.DT_D, samtarr[0]);

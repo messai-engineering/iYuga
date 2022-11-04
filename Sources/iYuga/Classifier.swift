@@ -8,7 +8,7 @@ public class Classifier {
         upiTrie.insertUpis()
     }()
     
-    public func getYugaTokens(_ sentence: String, _ configMap: Dictionary<String, String>, _ indexTrack: IndexTrack) {
+    public func getYugaTokens(_ sentence: String, _ configMap: Dictionary<String, String>, _ indexTrack: IndexTrack) -> Pair<String, Dictionary<String, AnyObject>> {
         
         _ = initTrie
         var prevToken: Pair<Int, String> = Pair(0, "")
@@ -30,6 +30,7 @@ public class Classifier {
                 indexTrack.next += 1
                 continue
             }
+            var ch: Character = sentence.charAt(indexTrack.next)
             let res: Pair<Int, Pair?> = getTokenEndIndex(sentence, indexTrack.next, prefixTrie)
             tokenEndIndex = res.getA()
             start = indexTrack.next
@@ -51,6 +52,7 @@ public class Classifier {
                     } else {
                         metaData[p!.getA() + "_" + String(tokenCount[p!.getA()]!)] = metValForToken as AnyObject
                     }
+                    tokenCount[(p?.getA())!] = tokenCount[(p?.getA())!]! + 1
                 }
                 sb.append(" ")
             } else {
@@ -63,10 +65,11 @@ public class Classifier {
             }
             sb.append("")
         }
-        generateOutput(sb, metaData)
+        return Pair(sb.trim(), metaData)
     }
     
     public func generateOutput(_ sb: String, _ map: Dictionary<String, AnyObject>) {
+        
         print("message : " + sb)
         print("METADATA : ")
         print(map)
@@ -88,15 +91,19 @@ public class Classifier {
         return nextSpaceIndex
     }
     private func nextDelimeterImmediate(_ str: String, _ prefixTrie: Trie) -> Pair<Int, Pair<Int, String>?> {
-        let i = 0
+        var idx: Int = 0
         var len: Int = 0
         var label: String? = nil
+        var flag: Bool = true
         var root: TrieNode = prefixTrie.root
         let sentence = str.lowercased()
         
         for i in 0...sentence.length() - 1 {
             let ch = sentence.charAt(i)
-            if root.hasNext(ch) {
+            if !root.hasNext(ch) {
+                flag = false
+            }
+            if root.hasNext(ch) && flag {
                 root = root.get(ch)
                 len += 1
                 if root.isEnd() {
@@ -111,8 +118,9 @@ public class Classifier {
                     return Pair(i, nil)
                 }
             }
+            idx = i + 1
         }
-        return Pair(i, nil)
+        return Pair(idx, nil)
     }
     
     public func classifyTokens(_ sentence: String, _ word: String, _ indexTrack: IndexTrack, _ configMap: Dictionary<String, String>, _ prevToken: Pair<Int, String>?, _ prefix: Pair<Int, String>?) -> Pair<String, Int>?{
@@ -348,25 +356,29 @@ public class Classifier {
         var t: TrieNode = upiTrie.root
         var c: Character
         var x: Int = -1
-        for i in 0...handle.length() {
-            c = handle.charAt(i)
-            if t.hasNext(c) {
-                t = t.get(c)
-                x = checkIfsc(handle.substring(i + 1))
-                if t.isEnd() && (i + 1) < handle.length() && (handle.charAt(i + 1) == "." || handle.charAt(i + 1) == " " || handle.charAt(i + 1) == ")" || handle.charAt(i + 1) == "(" || x > 0) {
-                    if x > 0 {
-                        return i + x
+        if handle.length() > 0 {
+            for i in 0...handle.length() - 1 {
+                c = handle.charAt(i)
+                if t.hasNext(c) {
+                    t = t.get(c)
+                    x = checkIfsc(handle.substring(i + 1))
+                    if t.isEnd() && (i + 1) < handle.length() && (handle.charAt(i + 1) == "." || handle.charAt(i + 1) == " " || handle.charAt(i + 1) == ")" || handle.charAt(i + 1) == "(" || x > 0) {
+                        if x > 0 {
+                            return i + x
+                        }
+                        return i
                     }
-                    return i
-                }
-            } else {
-                let d: Int = lookAheadDotForUpi(handle.substring(i))
-                if d > 0 && (i + d + 10) < handle.length() && handle.substring(i + d + 1, i + d + 10) == "ifsc.npci" {
-                    return i + d + 10
                 } else {
-                    break
+                    let d: Int = lookAheadDotForUpi(handle.substring(i))
+                    if d > 0 && (i + d + 10) < handle.length() && handle.substring(i + d + 1, i + d + 10) == "ifsc.npci" {
+                        return i + d + 10
+                    } else {
+                        break
+                    }
                 }
             }
+        } else {
+            return -1
         }
         return -1
     }

@@ -63,7 +63,7 @@ public class Constants {
     public static  var CH_HASH : UInt8 = 35;
     public static  var CH_PCT : UInt8 = 37;
     public static  var CH_SQOT : UInt8 = 39;
-    public static  var CH_LBKT : UInt8 = 41;
+    public static  var CH_LBKT : UInt8 = 40;
     public static  var CH_RBKT : UInt8 = 41;
     public static  var CH_STAR : UInt8 = 42;
     public static  var CH_PLUS : UInt8 = 43;

@@ -1,0 +1,1659 @@
+{
+  "data": [{
+    "date": "2/18/2018 21:43",
+    "addr": "AXISBK",
+    "body": "ALERT:Click goo.gl/AEXHB4 to link Aadhaar if applicable 03Jan18:Rs 1001 credited to A/C 951526;Bal:Rs 23351.65[UPI/P2A/800311013974/USEF SIDDEQ T M]",
+    "expected": "ALERT Click URL to link Aadhaar if applicable DATE AMT credited to A\/C NUM ;Bal AMT [UPI\/P2A\/800311013974\/USEF SIDDEQ T M]"
+  },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "ALERT:Link Aadhaar through ATM now. Your a/c 087976 is Reversed INR 500.00 on 12-01-2018 13:21:44 Info: CASH-ATM/P3AWMU73.",
+          "expected": "ALERT Link Aadhaar through ATM now Your a\/c NUM is Reversed AMT on DATE Info CASH ATM\/P3AWMU73"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, acct XX0973 has been debited for Rs.163.00 on 26-Jan-18 towards linked anoopkumarch@axisbank. UPI Ref no 802612374795",
+          "expected": "Dear Customer acct INSTRNO has been debited for AMT on DATE towards linked anoopkumarch@axisbank UPI Ref no NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Hello! Your A/c no. 005961 has been debited by Rs. 10000 on 15Feb18. The A/c balance is Rs. 24015.80.Info: SAK/CASH WDL/SAK040250293/1359/slf",
+          "expected": "Hello Your A\/c no NUM has been debited by AMT on DATE The A\/c balance is AMT Info SAK\/CASH WDL\/SAK040250293\/1359\/slf"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Hello! Your a/c no 29813094 has been debited by Rs 3274 on 2017-09-01. The a/c balance is Rs 247.18. Info: NACH-DR- TP ACH ICICI BANK",
+          "expected": "Hello Your a\/c no NUM has been debited by AMT on DATE The a\/c balance is AMT Info NACH DR TP ACH ICICI BANK"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Hello! Your a/c no 32696980 has been debited by Rs 2500 on 2017-09-01. The a/c balance is Rs 2288.80. Info: FranklinTempleton",
+          "expected": "Hello Your a\/c no NUM has been debited by AMT on DATE The a\/c balance is AMT Info FranklinTempleton"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your a/c no. XXXXXXXX9131 is debited for Rs.5000.00 on 03-05-19 and a/c of Mrs. JANE  DOE has been credited (IMPS Ref no 912316201111).",
+          "expected": "Your a\/c no INSTRNO is debited for AMT on DATE and a\/c of Mrs JANE DOE has been credited IMPS Ref no NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Hello, this is to inform you that your a/c XXXX7918 is debited with Rs.15.00 on 17-OCT-15 for Value Added SMS Alert Fee.",
+          "expected": "Hello this is to inform you that your a\/c INSTRNO is debited with AMT on DATE for Value Added SMS Alert Fee"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Interest Charge of Rs 538.10+tax levied to your AXIS BANK credit card no XXXX 3437 is reversed. The same would reflect in next month statement",
+          "expected": "Interest Charge of AMT tax levied to your AXIS BANK credit card no INSTRNO is reversed The same would reflect in next month statement"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your A/c 155159 is debited with INR 125.00 on 12-02-2018 04:09:05 A/c Bal is INR 4841.34 Info: PUR/Accelyst Solutions Pvt/Mumbai/Accelyst Solutions Pvt/Seq No 804315387811. Call 18605005555 (if in India) if you have not done this transaction.",
+          "expected": "Your A\/c NUM is debited with AMT on DATE A\/c Bal is AMT Info PUR\/Accelyst Solutions Pvt\/Mumbai\/Accelyst Solutions Pvt\/Seq No NUM Call NUM if in India if you have not done this transaction"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your a/c 312861 is Reversed INR 81.77 on 10-06-2017 21:11:36 Info: PUR/GOOGLE *SERVICES/g.co/payhelp/GOOGLE *SERVICES",
+          "expected": "Your a\/c NUM is Reversed AMT on DATE Info PUR\/GOOGLE *SERVICES\/g co\/payhelp\/GOOGLE *SERVICES"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Thanks for spending Rs 200.0 on your card ending 7432 at B K PETROLEUM PUNE IN on 25-Dec-17, towards fuel. You will receive a refund of Rs 1.5 for this transaction shortly. T&Cs apply.For more details, please visit http://citi.asia/2hPDwPl",
+          "expected": "Thanks for spending AMT on your card ending NUM at B K PETROLEUM PUNE IN on DATE towards fuel You will receive a refund of AMT for this transaction shortly T&Cs apply For more details please visit URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Due Date Intimation: Please pay your bill of Rs.1208 for A/C:101009671559 on or before 10th and enjoy uninterrupted services.Happy Surfing!",
+          "expected": "Due Date Intimation Please pay your bill of AMT for A\/C NUM on or before DATE th and enjoy uninterrupted services Happy Surfing"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,Today is your ACT Fibernet  A/c: 101009671559 due date. Kindly clear Rs.1208 today via Portal/ESEVA/APOnline/Mobile app. Thank you.",
+          "expected": "Dear Customer Today is your ACT Fibernet A\/c NUM due date Kindly clear AMT today via Portal\/ESEVA\/APOnline\/Mobile app Thank you"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Subscriber, We hope you have received your SOA of Rs.1208 for the current month of February. Due date is 10th. Kindly clear your dues on on before due date via Portal/E-seva /APOnline/MobileApp .Thank you.",
+          "expected": "Dear Subscriber We hope you have received your SOA of AMT for the current month of February Due date is DATE th Kindly clear your dues on on before due date via Portal\/E seva \/APOnline\/MobileApp Thank you"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,Services to your ACT Fibernet A/c:101009671559 are suspended due to non payment. Please clear your due of Rs.1208 immediately to reactivate your services.",
+          "expected": "Dear Customer Services to your ACT Fibernet A\/c NUM are suspended due to non payment Please clear your due of AMT immediately to reactivate your services"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Tomorrow your ACT Fibernet A/c:101009671559 will be disconnected. To activate and avoid Rs.300 reconnection charges, kindly your dues of Rs.1208 via Portal/ESEVA/APOnline TODAY.",
+          "expected": "Dear Customer Tomorrow your ACT Fibernet A\/c NUM will be disconnected To activate and avoid AMT reconnection charges kindly your dues of AMT via Portal\/ESEVA\/APOnline TODAY"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Bill of Rs 440 dated 06-NOV-16 for your airtel mobile 7032663008 is due on 24-NOV-16. Please pay on time to avoid late fee! Payment options: a)myairtel app b)visit www.airtel.in c)ARC details-SMS ARC <pincode> to 121.Pls ignore if already paid.",
+          "expected": "Bill of AMT dated DATE for your airtel mobile NUM is due on DATE Please pay on time to avoid late fee Payment options a myairtel app b visit URL c ARC details SMS ARC pincode to NUM Pls ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Installment              21,447.00 Rs. will be due in your Loan Account Number XXXXXXX5458 on 31/03/2018. Please ignore if already paid- Allahabad Bank. -- 24/03/18 23:46 - ALB ",
+          "expected": "Installment AMT Rs will be due in your Loan Account Number INSTRNO on DATE Please ignore if already paid Allahabad Bank DATE ALB"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Plz pay your installment Rs.                         11,116.00 due on 01/03/2018 for XXXXXXX8275 to avoid penal interest.Kindly ignore,if already paid-Allahabad -- 24/02/18 16:43 - ALB ",
+          "expected": "Plz pay your installment AMT due on DATE for INSTRNO to avoid penal interest Kindly ignore if already paid Allahabad DATE ALB"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Gentle reminder for payment of installment of Rs. 18780 on your CLEAN Loan No XX2398 due on 26-02-2018. Please ignore if already paid.",
+          "expected": "Gentle reminder for payment of installment of AMT on your CLEAN Loan No INSTRNO due on DATE Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Rs. 103259 credited to Loan A/C XX671 on 23-03-18. Bal is 0 -AndhraBank",
+          "expected": "AMT credited to Loan A\/C INSTRNO on DATE Bal is NUM AndhraBank"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Please pay overdue amount of Rs. 25941 on your HOUSING Loan No XX6445 immediately.",
+          "expected": "Please pay overdue amount of AMT on your HOUSING Loan No INSTRNO immediately"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Gentle reminder for payment of installment of Rs. 11186 on your HOUSING Loan No XX6445 due on 08-02-2018. Please ignore if already paid.",
+          "expected": "Gentle reminder for payment of installment of AMT on your HOUSING Loan No INSTRNO due on DATE Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your new bill of BESCOM Bangalore - 3322240364 for Rs 456.00 has been scheduled for payment.",
+          "expected": "Your new bill of BESCOM Bangalore NUM for AMT has been scheduled for payment"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your payment of BESCOM Bangalore bill 3322240364 for Rs 450.00 has been processed successfully. Get 5% cash back every month on bill payment, know more@ http://bit.ly/2e0YgWP",
+          "expected": "Your payment of BESCOM Bangalore bill NUM for AMT has been processed successfully Get PCT cash back every month on bill payment know more@ URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, charges of Rs. <834> are due on your loan account ending with <398909> due to Bounce & LPC charges. The amount will be debited from your account ending with <504258>after 2 days. In case of query please write to www.axisbank.com/Support. Kindly ignore if already paid.",
+          "expected": "Dear Customer charges of AMT are due on your loan account ending with NUM due to Bounce & LPC charges The amount will be debited from your account ending with NUM after NUM days In case of query please write to URL Kindly ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your pyt against Credit Card a/c is due. Pls make pyt of Rs 15538. Pls ignore if alrdy paid. Have a nice day!",
+          "expected": "Your pyt against Credit Card a\/c is due Pls make pyt of AMT Pls ignore if alrdy paid Have a nice day"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Charges of Rs. <720> on your AXIS Bank Loan A/c ending with <880400> are overdue, Pls pay the same at the earliest. Kindly ignore if already paid.",
+          "expected": "Dear Customer Charges of AMT on your AXIS Bank Loan A\/c ending with NUM are overdue Pls pay the same at the earliest Kindly ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your credit card a/c is seriously overdue. Pl pay minimum dues of Rs 7729 immediately. Call us at 18001027786 for any assistance.",
+          "expected": "Your credit card a\/c is seriously overdue Pl pay minimum dues of AMT immediately Call us at NUM for any assistance"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your BOBCARDS Bill dt 01.10.2017 for Rs.4,706.28 has been generated. Pl pay total or min due of Rs.240.00 on or before 20.10.2017 If paid pl. ignore.",
+          "expected": "Your BOBCARDS Bill dt DATE for AMT has been generated Pl pay total or min due of AMT on or before DATE If paid pl ignore"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Installment of Rs 8639 for A/c ...1350 at BoB is due on 09-03-18.Pl deposit before due date. Ignore if already paid.",
+          "expected": "Installment of AMT for A\/c NUM at BoB is due on DATE Pl deposit before due date Ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your a/c..2952 shows overdues. Pl contact your branch immediatly. Pl ignore, if already paid.",
+          "expected": "Your a\/c NUM shows overdues Pl contact your branch immediatly Pl ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "*BOI Star Sandesh* We are sorry the transaction from your debit card XXXX3140 cannot be honoured due to insufficient funds in the account",
+          "expected": "*BOI Star Sandesh* We are sorry the transaction from your debit card INSTRNO cannot be honoured due to insufficient funds in the account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Your Landline bill payment of Rs. 1396 for account No. 9029730239, Tel No. 04872330930 is due by 27-OCT-17. You can also pay this bill online at www.bsnl.co.in (http://www.bsnl.co.in). Please ignore if already paid.",
+          "expected": "Dear Customer Your Landline bill payment of AMT for account No NUM Tel No NUM is due by DATE You can also pay this bill online at URL URL Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Payment of Rs. 509 on 21-DEC-17 for your BSNL Landline bill against A/C No. 9033567731 against Telephone No. 4842340606 has been received",
+          "expected": "Dear Customer Payment of AMT on DATE for your BSNL Landline bill against A\/C No NUM against Telephone No NUM has been received"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Your loan/OD account No. ending with xx5404 is having overdue of Rs. 90114.08 as on 18-NOV-2016 kindly arrange to regularise. -Canara Bank",
+          "expected": "Dear Customer Your loan\/OD account No ending with INSTRNO is having overdue of AMT as on DATE kindly arrange to regularise Canara Bank"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your Canara HSBC OBC Life Insurance policy no 0056986613 is due on 28-Feb-17. The premium amount is Rs 25479/- incl tax. Pl pay the premium on time to continue enjoying the benefits under the policy.Any change affecting the policy to be disclosed to Insurer immediately.",
+          "expected": "Your Canara HSBC OBC Life Insurance policy no NUM is due on DATE The premium amount is AMT \/ incl tax Pl pay the premium on time to continue enjoying the benefits under the policy Any change affecting the policy to be disclosed to Insurer immediately"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "The payment due date for your Canaracard  xxxx xxxx xxxx 0009 is 20/02/2018. Amount billed is Rs 26294.68. The minimum amount due is Rs 26294.68",
+          "expected": "The payment due date for your Canaracard INSTRNO is DATE Amount billed is AMT The minimum amount due is AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Card ending 5088:Txn declined due to insufficient funds.Use Balance inquiry option to know the Balance.",
+          "expected": "Card ending NUM Txn declined due to insufficient funds Use Balance inquiry option to know the Balance"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your Loan AC XXXXX850594 irregular by INR 13,458.50.Please contact Branch Manager.Ignore if paid.",
+          "expected": "Your Loan AC INSTRNO irregular by AMT Please contact Branch Manager Ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Multi Option Deposit (FD) of Rs 48,000.00 created on 09/12/17 by Auto Sweep out of your SB A/c XXXXX414588. Avl SB Bal Rs 25,300.00",
+          "expected": "Multi Option Deposit FD of AMT created on DATE by Auto Sweep out of your SB A\/c INSTRNO Avl SB Bal AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,we regret to inform you that your card ending 6952 has been closed on account of overdue payments for 4 months. Total=Rs.92368.80,Minimum=Rs.92368.80.EMIs/loans on the card or linked cards,if any,have also been closed. Kindly clear your outstanding dues on priority. For details call 0124-6159000.",
+          "expected": "Dear Customer we regret to inform you that your card ending NUM has been closed on account of overdue payments for NUM months Total AMT Minimum AMT EMIs\/loans on the card or linked cards if any have also been closed Kindly clear your outstanding dues on priority For details call NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,as per our agreed schedule,please make payment on Citi loan ending 3552 by 31-Jan-18. Kindly ignore if paid.For queries call 0124-6159000",
+          "expected": "Dear Customer as per our agreed schedule please make payment on Citi loan ending NUM by DATE Kindly ignore if paid For queries call NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Payment on credit card ending 9820 is overdue.Our authorized agencies may contact you to remind you about the outstanding dues.To view a list of our authorized agencies,please visit http://www.online.citibank.co.in/portal/newgen/cards/collection_vendors.pdf.Ignore if paid.",
+          "expected": "Dear Customer Payment on credit card ending NUM is overdue Our authorized agencies may contact you to remind you about the outstanding dues To view a list of our authorized agencies please visit URL if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Min Amt Due of Rs.5118.21 on Credit Card ending with 7919 was due on 16-Mar-18. Kindly ignore if you have already paid",
+          "expected": "Dear Customer Min Amt Due of AMT on Credit Card ending with NUM was due on DATE Kindly ignore if you have already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Payment for Card no.7152 is overdue. Min due=Rs.580.57. Your card may get blocked. Kindly ignore if paid. For details call 0124- 6159000.",
+          "expected": "Dear Customer Payment for Card no NUM is overdue Min due AMT Your card may get blocked Kindly ignore if paid For details call NUM NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your personal loan has been booked as on MAR 16 2018 and disbursal amt of Rs.149033.2 would be credited to your bank A/c # 58XX9XXX27",
+          "expected": "Your personal loan has been booked as on DATE and disbursal amt of AMT would be credited to your bank A\/c  INSTRNO"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "We are pleased to confirm that your loan on your Citi credit card no 4386XXX0XXXX5450 has been booked on 13-MAR-2018, with reference no 20180314000714872409. The  proceeds of Rs.140000 would be credited to your bank a/c number  53XX9XXX13 within 1 working day. T&Cs apply, for details visit www.citibank.co.in",
+          "expected": "We are pleased to confirm that your loan on your Citi credit card no INSTRNO has been booked on DATE with reference no NUM The proceeds of AMT would be credited to your bank a\/c number INSTRNO within NUM working day T&Cs apply for details visit URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Mini Statement for Card ************7467.Total Due Rs.20593.02.Minimum due Rs.1865.47.Payment due 04-APR-18. Refer to your statement for more details. Enjoy convenience of accessing your card account anytime on Citi Mobile App. Click http://citi.asia/1T7sR3P to download.",
+          "expected": "Mini Statement for Card INSTRNO Total Due AMT Minimum due AMT Payment due DATE Refer to your statement for more details Enjoy convenience of accessing your card account anytime on Citi Mobile App Click URL to download"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Reminder: Payment for card************7467 is due on 06-FEB-18. Total=Rs.3305.32,Minimum=Rs.1513.71.Pay early to avoid charges.Please ignore if paid.",
+          "expected": "Reminder Payment for cardINSTRNO is due on DATE Total AMT Minimum AMT Pay early to avoid charges Please ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "MAR'18 AIRTEL - CALCUTTA bill for 98XX6XXX72 is Rs.934.07 and is due on 30-MAR.  Login at http://m.citibank.co.in/mlogin and pay now.",
+          "expected": "MAR'18 AIRTEL CALCUTTA bill for INSTRNO is AMT and is due on DATE Login at URL and pay now"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Reminder: Payment for card************7180 is due on 13-FEB-18. Total=Rs.73543.06,Minimum=Rs.3754.45.Pay early to avoid charges.Please ignore if paid.",
+          "expected": "Reminder Payment for cardINSTRNO is due on DATE Total AMT Minimum AMT Pay early to avoid charges Please ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "EPF Contribution of Rs. 2350 against UAN 100615602433 for due month 052017 has been received on 16-JUN-17.Passbook will be updated shortly.",
+          "expected": "EPF Contribution of AMT against UAN NUM for due month NUM has been received on DATE Passbook will be updated shortly"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Your Loan A/c XX0932 EMI of Rs 10425 is due on 19-02-2018. Please remit before due date. Kindly ignore if already paid- Federal Bank",
+          "expected": "Dear Customer Your Loan A\/c INSTRNO EMI of AMT is due on DATE Please remit before due date Kindly ignore if already paid Federal Bank"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Rs.80000 debited from your A/c XX4246 due to CHQ No.710496 being returned unpaid on 21FEB2018 18:35:48.BAL-Rs.17995-Federal Bank",
+          "expected": "Dear Customer AMT debited from your A\/c INSTRNO due to CHQ No NUM being returned unpaid on DATE BAL AMT Federal Bank"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your Credit Card mini Statement as of 23/03/18 : Statement Outstanding :INR 4,770.17, Minimum Due :INR 250.00, Payment Due Date :16/04/18-StanChart.",
+          "expected": "Your Credit Card mini Statement as of DATE Statement Outstanding AMT Minimum Due AMT Payment Due Date DATE StanChart"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your credit card pymt for stmt 20/01/18 is due on 12/02/18,Total due: INR 20,576.89,Minimum Due: INR 1,261.64,Please ignore if already paid-StanChart",
+          "expected": "Your credit card pymt for stmt DATE is due on DATE Total due AMT Minimum Due AMT Please ignore if already paid StanChart"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Card# 1823 Total O/S bal Rs 36435.89 Stmt bal  Rs 36435.89 Min due Rs 1821.79 Pay by 27/03 \n - SCB",
+          "expected": "Card# NUM Total O\/S bal AMT Stmt bal AMT Min due AMT Pay by DATE SCB"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Total OS bal INR 36435.89\nAvlb Lmt INR 237565\n\nTo view your transactions and other details, you can visit Breeze Mobile Web at m.sc.com/in  -StanChart",
+          "expected": "Total OS bal AMT Avlb Lmt AMT To view your transactions and other details you can visit Breeze Mobile Web at URL StanChart"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your transaction request to $PAYEEADD for amount Rs. 2000.00 has failed due to INSUFFICIENT FUNDS IN BANK ACCOUNT (UPI Ref no 806905243779).",
+          "expected": "Your transaction request to $PAYEEADD for amount AMT has failed due to INSUFFICIENT FUNDS IN BANK ACCOUNT UPI Ref no NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Reminder! Your bill of BESCOM Bangalore - 7892376000 for Rs 1936.00 is due by 20-Oct-2017. Log on to NetBanking/MobileBanking > BillPay & Recharge to initiate payment to this bill. Please ignore if already paid. You may also set SI / Auto Pay for the upcoming bills.",
+          "expected": "Reminder Your bill of BESCOM Bangalore NUM for AMT is due by DATE Log on to NetBanking\/MobileBanking BillPay & Recharge to initiate payment to this bill Please ignore if already paid You may also set SI \/ Auto Pay for the upcoming bills"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "You have a new BESCOM Bangalore bill  - account 7892376000 for Rs 849.00 due by 20-Aug-2017. Log on to NetBanking BillPay & Recharge to initiate payment to this bill. For next bills you can also set SI/ AutoPay on your Debit/Credit card to get the bills paid automatically & enjoy 5% CashBack/Rewards.T&C apply",
+          "expected": "You have a new BESCOM Bangalore bill account NUM for AMT due by DATE Log on to NetBanking BillPay & Recharge to initiate payment to this bill For next bills you can also set SI\/ AutoPay on your Debit\/Credit card to get the bills paid automatically & enjoy PCT CashBack\/Rewards T&C apply"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, E-stmt for HDFCBank CreditCard 4500 will be sent to your Email ID. Min Due Rs.0 Total Due Rs.-.33. Payment due by 06/NOV/2017.",
+          "expected": "Dear Customer E stmt for HDFCBank CreditCard NUM will be sent to your Email ID Min Due AMT Total Due AMT Payment due by DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Stmt for HDFCBank Creditcard ending 6181 is generated.Min due Rs 360 .Total Due Rs 7042.3 .Pymt due on 06/SEP/2017",
+          "expected": "Stmt for HDFCBank Creditcard ending NUM is generated Min due AMT Total Due AMT Pymt due on DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, this is to inform you that your monthly instalment of Rs. INR 5,000.00 of RD XXXXX4961 is due on 31-OCT-17.",
+          "expected": "Dear Customer this is to inform you that your monthly instalment of Rs AMT of RD INSTRNO is due on DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "INR 50,000.00 deposited to A/c No XX3850 towards 06221130004249  -TPT-Homeloan Val 01-MAR-18. Clr Bal is INR 2,91,965.03 subject to clearing.",
+          "expected": "AMT deposited to A\/c No INSTRNO towards NUM TPT Homeloan Val DATE Clr Bal is AMT subject to clearing"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Rs.70.00 was spent on ur HDFCBank CREDIT Card ending 4500 on 2017-08-27:14:40:11 at NETFLIX.COM.Avl bal - Rs.66065.00, curr o/s - Rs.3935.00",
+          "expected": "AMT was spent on ur HDFCBank CREDIT Card ending NUM on DATE at NETFLIX COM Avl bal AMT curr o\/s AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,We wish to remind you that an amount of Rs.24909 s overdue towards pending EMI on your HDFC Bank-PERSONAL LOAN-48310442 .Additionally, an amount of Rs.1680  is also pending towards ?fees and charges.You can make payment at https://goo.gl/yvUayf. For queries, please call us at 01416639609",
+          "expected": "Dear Customer We wish to remind you that an amount of AMT s overdue towards pending EMI on your HDFC Bank PERSONAL LOAN NUM Additionally an amount of AMT is also pending towards ?fees and charges You can make payment at URL For queries please call us at NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,A gentle reminder to remit overdue payment of Rs.26589  towards your HDFC Bank  -PERSONAL LOAN-48310442 .Timely payment will help youavoid levy of fees and charges.Please log onto https://goo.gl/yvUayf  to remit this amount.Kindly ignore if you have already paid",
+          "expected": "Dear Customer A gentle reminder to remit overdue payment of AMT towards your HDFC Bank PERSONAL LOAN NUM Timely payment will help youavoid levy of fees and charges Please log onto URL to remit this amount Kindly ignore if you have already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer.Payments on your HDFC Bank Loan-PERSONAL LOAN-48310442 are overdue.Please remit an amount of Rs.24909towards pending EMI and Rs.1680 towards outstanding fees and charges.Please ignore if you have already paid",
+          "expected": "Dear Customer Payments on your HDFC Bank Loan PERSONAL INSTRNO are overdue Please remit an amount of AMT towards pending EMI and AMT towards outstanding fees and charges Please ignore if you have already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your payment for Reliance Energy Limited bill - account 151448095 for Rs 4440.00 could not be processed. Request you to make the payment through an alternate mode before the due date.",
+          "expected": "Your payment for Reliance Energy Limited bill account NUM for AMT could not be processed Request you to make the payment through an alternate mode before the due date"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, an Amt of Rs.855 is due for UR Demat A/c XXXX8881, till date. Kindly Fund UR Bank A/c suitably. Pls. ignore, if funded.",
+          "expected": "Dear Customer an Amt of AMT is due for UR Demat A\/c INSTRNO till date Kindly Fund UR Bank A\/c suitably Pls ignore if funded"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Smartpay cstmr,Pls have adequate limit in your cr.card as bill Schdld for pmt LIC of India # 998305046 Rs.7873.00 DT-2302 DUEDT-30/03/18.",
+          "expected": "Dear Smartpay cstmr Pls have adequate limit in your cr card as bill Schdld for pmt LIC of India  NUM AMT DT NUM DUEDT DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "You have a new Idea Cellular Mobile bill  - account 8378993302 for Rs 470.82 due by 19-Mar-2018. Log on to NetBanking BillPay & Recharge to initiate payment to this bill. For next bills you can also set SI/ AutoPay on your Debit/Credit card to get the bills paid automatically & enjoy 5% CashBack/Rewards.T&C apply",
+          "expected": "You have a new Idea Cellular Mobile bill account NUM for AMT due by DATE Log on to NetBanking BillPay & Recharge to initiate payment to this bill For next bills you can also set SI\/ AutoPay on your Debit\/Credit card to get the bills paid automatically & enjoy PCT CashBack\/Rewards T&C apply"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Reminder! Your bill of Idea Cellular Mobile - 8378993302 for Rs 470.82 is due by 19-Mar-2018. Log on to NetBanking/MobileBanking > BillPay & Recharge to initiate payment to this bill. Please ignore if already paid. You may also set SI / Auto Pay for the upcoming bills.",
+          "expected": "Reminder Your bill of Idea Cellular Mobile NUM for AMT is due by DATE Log on to NetBanking\/MobileBanking BillPay & Recharge to initiate payment to this bill Please ignore if already paid You may also set SI \/ Auto Pay for the upcoming bills"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Banks and Financial Instutions refer to Credit Information Bureau of India Ltd (CIBIL) and other credit burueas to check credit history  prior to sanction of any credit facility. Repayment defaults on your credit card ending with 2598 will hamper your ability to avail new loans and credit facilities. Please pay Rs.2191.06 towards outstanding dues immediately and maintain a clean track record and continue to enjoy credit facilities offered by the banks and financial institutions. Pls ignore if already paid. For enquiries, call toll free 18001024722.",
+          "expected": "Dear Customer Banks and Financial Instutions refer to Credit Information Bureau of India Ltd CIBIL and other credit burueas to check credit history prior to sanction of any credit facility Repayment defaults on your credit card ending with NUM will hamper your ability to avail new loans and credit facilities Please pay AMT towards outstanding dues immediately and maintain a clean track record and continue to enjoy credit facilities offered by the banks and financial institutions Pls ignore if already paid For enquiries call toll free NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, there is an overdue amount on your HSBC credit card ending with 1919. Please make the payment at the earliest. Call us on 18001024722 / 18004191144 from Monday - Saturday between 9 a.m and 7 p.m if you have any queries. If you have made this payment recently, please ignore this message.",
+          "expected": "Dear Customer there is an overdue amount on your HSBC credit card ending with NUM Please make the payment at the earliest Call us on NUM \/ NUM from DATE DATE between NUM a m and NUM p m if you have any queries If you have made this payment recently please ignore this message"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, your EMI for HSBC Personal Loan account is due on 16-Oct-17. The EMI amount will be debited from your nominated bank account on this date. Please ignore this message if you have already funded your account/repaid the loan.",
+          "expected": "Dear Customer your EMI for HSBC Personal Loan account is due on DATE The EMI amount will be debited from your nominated bank account on this date Please ignore this message if you have already funded your account\/repaid the loan"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Total PaymentDue on CreditCard ending 6346 is Rs.815.74 Min Paymentdue Rs.815.74 For uninterrupted card usage ensure payment is realised by DueDate 05MAR18",
+          "expected": "Total PaymentDue on CreditCard ending NUM is AMT Min Paymentdue AMT For uninterrupted card usage ensure payment is realised by DueDate DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, statement for your credit card ending 2026 has been sent to your mailing address. Payment due on 06APR18, Total payment due Rs.31494.51 Min payment due Rs.1574.73.",
+          "expected": "Dear Customer statement for your credit card ending NUM has been sent to your mailing address Payment due on DATE Total payment due AMT Min payment due AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, stmt for Credit Card XX5005 has been sent to glen.martin@oracle.com. Total amt of Rs. 8486 or Min. amt of Rs. 430 is due by 10-APR-17.",
+          "expected": "Dear Customer stmt for Credit Card INSTRNO has been sent to EMAILADDRESS Total amt of AMT or Min amt of AMT is due by DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Total Amount Due on Credit Card XX005 is INR 8486.01. Amt will be debited from your bank account on or before 10-APR-17. Pls ignore if paid.",
+          "expected": "Dear Customer Total Amount Due on Credit Card INSTRNO is AMT Amt will be debited from your bank account on or before DATE Pls ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, payment of Rs. 10000 towards JINU MARTIN is scheduled on 12-Nov-16. Pls maintain sufficient balance in Acct XX8245.",
+          "expected": "Dear Customer payment of AMT towards JINU MARTIN is scheduled on DATE Pls maintain sufficient balance in Acct INSTRNO"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Payment overdue on your Credit Card XXX3000 is affecting your credit history with CIBIL. This may prevent you from getting a loan or a credit card from any bank in future. To avoid further damage to your credit history,pl pay the total amt due Rs.31347 or the min amt Rs.1570 imm.Pl ignore if already paid.",
+          "expected": "Payment overdue on your Credit Card INSTRNO is affecting your credit history with CIBIL This may prevent you from getting a loan or a credit card from any bank in future To avoid further damage to your credit history pl pay the total amt due AMT or the min amt AMT imm Pl ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,The NEFT amount of Rs.2414.00 has been credited to your loan account LPXXXXXXXXXX7688.",
+          "expected": "Dear Customer The NEFT amount of AMT has been credited to your loan account INSTRNO"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,NDC for loan Account XX8957 has been sent to your registered e - mail ID on 22-Aug-17.",
+          "expected": "Dear Customer NDC for loan Account INSTRNO has been sent to your registered e mail ID on DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, your Account XX4172 has been debited with INR 1,500.00 on 30-Nov-17. Info: BIL*001342498990*loan*NSP. The Available Balance is INR 11,865.00.",
+          "expected": "Dear Customer your Account INSTRNO has been debited with AMT on DATE Info BIL*001342498990*loan*NSP The Available Balance is AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, your Account XX8268 has been debited with INR 9,500.00 on 31-Jul-17. Info: BIL*001261843959*bike loan*0. The Available Balance is INR 9,553.12.",
+          "expected": "Dear Customer your Account INSTRNO has been debited with AMT on DATE Info BIL*001261843959*bike loan*0 The Available Balance is AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, your Account XX8268 has been debited with INR 9,500.00 on 31-Jul-17. Info: BIL*001261843959*bike loan*0. The Available Balance is INR 9,553.12.",
+          "expected": "Dear Customer your Account INSTRNO has been debited with AMT on DATE Info BIL*001261843959*bike loan*0 The Available Balance is AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,EMI of Rs. 10875 towards ICICI Bank Loan Account XX1763 is due on 01-Apr-18.",
+          "expected": "Dear Customer EMI of AMT towards ICICI Bank Loan Account INSTRNO is due on DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, stmt for Credit Card XX9005 has been sent to madan.pande@datavail.com. Total amt of Rs. 4291 or Min. amt of Rs. 220 is due by 12-FEB-18.",
+          "expected": "Dear Customer stmt for Credit Card INSTRNO has been sent to EMAILADDRESS Total amt of AMT or Min amt of AMT is due by DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, your ICICI Bank Credit Card XX5008 is blocked. Please pay the Total Amount Due of Rs.42612.88 or Minimum Amount Due of Rs.18200.00 immediately, to activate the card. For details, call our Customer Care. For payment options, visit www.icicibank.com/pay . Please ignore if already paid.",
+          "expected": "Dear Customer your ICICI Bank Credit Card INSTRNO is blocked Please pay the Total Amount Due of AMT or Minimum Amount Due of AMT immediately to activate the card For details call our Customer Care For payment options visit URL Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, please pay the Total Amount Due of Rs.45846.05 immediately, as non-payment of dues on your Credit Card XX5008 will adversely affect your credit history. For details, please call Customer Care. For payment options, visit www.icicibank.com/pay . Please ignore if already paid.",
+          "expected": "Dear Customer please pay the Total Amount Due of AMT immediately as non payment of dues on your Credit Card INSTRNO will adversely affect your credit history For details please call Customer Care For payment options visit URL Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Total Amount Due on Credit Card XX5008 is INR 42612.88. Amt will be debited from your bank account on or before 12-FEB-18. Pls ignore if paid.",
+          "expected": "Dear Customer Total Amount Due on Credit Card INSTRNO is AMT Amt will be debited from your bank account on or before DATE Pls ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, bill of Rs. 14892.4 towards LIFE INSURANCE CORPOR is due on 11-Feb-18. To make a payment, click https://icici.in/rgXn7wv or login to Internet Banking/ iMobile.",
+          "expected": "Dear Customer bill of AMT towards LIFE INSURANCE CORPOR is due on DATE To make a payment click URL or login to Internet Banking\/ iMobile"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, ICICI PRUDENTIAL MUTU bill of Rs. 1000 has been presented at ICICIBank.com. It would be debited through autodebit on due date 15-Mar-18.",
+          "expected": "Dear Customer ICICI PRUDENTIAL MUTU bill of AMT has been presented at ICICIBank com It would be debited through autodebit on due date DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,the Mar 2018 EMI towards your ICICI Bank Loan Account XX2007 has returned due to reason-Insufficient Funds. Please make the payment using NEFT,RTGS,UPI or Internet Banking.",
+          "expected": "Dear Customer the DATE EMI towards your ICICI Bank Loan Account INSTRNO has returned due to reason Insufficient Funds Please make the payment using NEFT RTGS UPI or Internet Banking"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, EMI of Rs.10934 towards your ICICI Bank AUTO Loan LADEXXXXXXXX2007 is due on 01-03-2018. Your last 6 months payment on due date record is: FEB-Yes, JAN-Yes, DEC-No, NOV-Yes, OCT-Yes, SEP-Yes. Timely payment of dues helps in maintaining good credit history. To confirm payment on due date, click http://nsm.sg/nRaRMa",
+          "expected": "Dear Customer EMI of AMT towards your ICICI Bank AUTO Loan INSTRNO is due on DATE Your last NUM months payment on due date record is FEB Yes JAN Yes DEC No NOV Yes OCT Yes SEP Yes Timely payment of dues helps in maintaining good credit history To confirm payment on due date click URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, your ICICI Bank Account XX4791 is lien marked for Rs.11591.00 against an overdue in your AUTO Loan XX2007. Please make the payment within 7 days, else your account will be debited towards outstanding dues. For details, call 02233667777 and dial 174.",
+          "expected": "Dear Customer your ICICI Bank Account INSTRNO is lien marked for AMT against an overdue in your AUTO Loan INSTRNO Please make the payment within NUM days else your account will be debited towards outstanding dues For details call NUM and dial NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Rs.28358.08 is due on 20-Mar-18 for ICICI Bank Credit Card XX3008. Please make the payment to avoid charges and ensure uninterrupted card usage. For payment options, visit www.icicibank.com/pay . Please ignore if already paid.",
+          "expected": "Dear Customer AMT is due on DATE for ICICI Bank Credit Card INSTRNO Please make the payment to avoid charges and ensure uninterrupted card usage For payment options visit URL Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, EMI of Rs.13,609.00 is due on 10 FEB 18 for your loan a/c NNNNNNNNNNN19594. Pls ensure sufficient  funds in your account.",
+          "expected": "Dear Customer EMI of AMT is due on DATE for your loan a\/c INSTRNO Pls ensure sufficient funds in your account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Mini statement for Credit Card 4***1698 Total Due Rs. 8300.14 Minimum Due Rs. 420.00 Payment Due Date: 10/03/2018 Refer statement for more details",
+          "expected": "Mini statement for Credit Card INSTRNO Total Due AMT Minimum Due AMT Payment Due Date DATE Refer statement for more details"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Payment on your Credit Card 4***1698 is due on 10/03/18 Total Due Rs. 8300.14 Minimum Due Rs. 420.00 Pay in time to avoid charges. Pls ignore if paid.",
+          "expected": "Payment on your Credit Card INSTRNO is due on DATE Total Due AMT Minimum Due AMT Pay in time to avoid charges Pls ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "New Bill uploaded & scheduled: Dtls HDFC MUTUA/HDDIRECT-974877      Amt Rs.1500 Due Dt:15MAR18. AutoPay: A/c Id:0237104000166652         Schld Dt:15MAR18",
+          "expected": "New Bill uploaded & scheduled Dtls HDFC MUTUA\/HDDIRECT NUM Amt AMT Due Dt DATE AutoPay A\/c Id NUM Schld Dt DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "KINDLY REMIT RS.354 URGENTLY AS YOUR LOAN A/C 18823 IS OVERDUE BY RS.354.CONTACT ON COLLECTIONS_MUMBAI@IDBI.CO.IN",
+          "expected": "KINDLY REMIT AMT URGENTLY AS YOUR LOAN A\/C NUM IS OVERDUE BY AMT CONTACT ON EMAILADDRESS N"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your fund transfer for Rs.5000.00 on 26-02-18 could not be processed due to insufficient balance in your account.",
+          "expected": "Your fund transfer for AMT on DATE could not be processed due to insufficient balance in your account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your fund transfer for Rs.400.00 on 09-12-17 could not be processed due to BELOW MIN LEVEL-Indian Bank",
+          "expected": "Your fund transfer for AMT on DATE could not be processed due to BELOW MIN LEVEL Indian Bank"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, your Net Banking Transaction service which was locked due to incorrect password attempts has been UNLOCKED at 26/08/2017 17:00 - Indian Bank",
+          "expected": "Dear Customer your Net Banking Transaction service which was locked due to incorrect password attempts has been UNLOCKED at DATE Indian Bank"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, as per the last statement generated for your IndusInd Bank Credit Card ending # XXXXXXXXXXXX5017 total & minimum amounts due are Rs.4308.10 & Rs.215.41 respectively. We request you to make the payment by the due date ie 28MAR18. You can use any of our convenient online payment options:http://bit.ly/2B2fkmj or download the all new IndusMobile App to make your Credit Card payment: http://goo.gl/zQM2Yl . Please ignore if paid already.",
+          "expected": "Dear Customer as per the last statement generated for your IndusInd Bank Credit Card ending  INSTRNO total & minimum amounts due are AMT & AMT respectively We request you to make the payment by the due date ie DATE You can use any of our convenient online payment options URL or download the all new IndusMobile App to make your Credit Card payment URL Please ignore if paid already"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, statement for your IndusInd Bank Credit Card # XXXX6009 dated 03-MAR, due 23-MAR will be delivered shortly. Total Amount Due is INR 49,482.55 and Minimum Amount Due is INR 2,474.13.To keep track of your Credit Card outstanding and view statements, download the IndusMobile App now:  http://goo.gl/zQM2Yl",
+          "expected": "Dear Customer statement for your IndusInd Bank Credit Card  INSTRNO dated DATE due DATE will be delivered shortly Total Amount Due is AMT and Minimum Amount Due is AMT To keep track of your Credit Card outstanding and view statements download the IndusMobile App now URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, the payment on your IndusInd Bank Credit Card # XXXXXXXXXXXX3012 is overdue. The minimum amount due is INR Rs.89790.03. We request you to make the payment immediately using any of our convenient online payment options: http://bit.ly/2B2fkmj <https://urldefense.proofpoint.com/v2/url?u=http-3A__bit.ly_2B2fkmj&d=DwMFAg&c=uc5ZRXl8dGLM1RMQwf7xTCjRqXF0jmCF6SP0bDlmMmY&r=bG5nShGr_8i5qOtLQskck8NMYfTDQdBK5ddOABVSSGI&m=BYIbwYiRbivd-hQ7etdSN3OMMaEHC0KmOrFJFO4KZHk&s=G8vnivcBs6QEPXDnBpqUNZWgcng70sKZiZDuFiyta4M&e=> or download the all new IndusMobile App to make your Credit Card payment: http://goo.gl/zQM2Yl <https://urldefense.proofpoint.com/v2/url?u=http-3A__goo.gl_zQM2Yl&d=DwMFAg&c=uc5ZRXl8dGLM1RMQwf7xTCjRqXF0jmCF6SP0bDlmMmY&r=bG5nShGr_8i5qOtLQskck8NMYfTDQdBK5ddOABVSSGI&m=BYIbwYiRbivd-hQ7etdSN3OMMaEHC0KmOrFJFO4KZHk&s=flgwecBoBEv_qNjpCAWr_VOQKVpKvKhUszo0GEL2Ehc&e=>. Please ignore if paid already or if you have provided a standing instruction to debit your account.",
+          "expected": "Dear Customer the payment on your IndusInd Bank Credit Card  INSTRNO is overdue The minimum amount due is INR AMT We request you to make the payment immediately using any of our convenient online payment options URL URL or download the all new IndusMobile App to make your Credit Card payment URL URL Please ignore if paid already or if you have provided a standing instruction to debit your account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your curr loan EMI RS.16600 for KSD00914D due on 21Mar2018. Pls pay or ensure suff bal on presentation. Ignore if paid already. For Queries call 08026673596     mail us in reach4loan@indusind.com",
+          "expected": "Your curr loan EMI AMT for KSD00914D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS m"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Instalment of Rs.1,00,000.00 for your IOB Loan Ac ***511400002 is due on 04-FEB-18.Pl ignore if already paid.Use IOB mPassBook app for access to A/C details.",
+          "expected": "Instalment of AMT for your IOB Loan Ac INSTRNO is due on DATE Pl ignore if already paid Use IOB mPassBook app for access to A\/C details"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Rs.4750.00 Debited to CC-xxx0004 AcBal:27853.51 CLRBal: -53146.49 [Loan Accou ] NEW PANVEL on 27-02-2018 12:40:09.IOB.",
+          "expected": "AMT Debited to CC INSTRNO AcBal AMT CLRBal AMT [Loan Accou ] NEW PANVEL on DATE IOB"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,Your Loan A/c 2998***4000322 with IOB is Overdue for 9 days by Rs.3,804.19 as on 05-NOV-17 [SMA-0].Please Regularize.",
+          "expected": "Dear Customer Your Loan A\/c INSTRNO with IOB is Overdue for NUM days by AMT as on DATE [SMA NUM ] Please Regularize"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "STMT for your IOB credit card 470963XXXXXX2211 is generated.TTL amt due -Rs.14387.86.Min amt due-Rs.1460.026.PYMNT due date 12-MAR-2018",
+          "expected": "STMT for your IOB credit card INSTRNO is generated TTL amt due AMT Min amt due AMT PYMNT due date DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your cash withdrawal at SPCNF453 using Kotak Debit Card XX1615 on 10-02-2018 13:17:23 could not be processed due to Insufficient account balance. Combined balance in A/c XX3765 is Rs0. Kindly fund the account or retry transaction with an amount lesser than the combined balance.",
+          "expected": "Your cash withdrawal at SPCNF453 using Kotak Debit Card INSTRNO on DATE could not be processed due to Insufficient account balance Combined balance in A\/c INSTRNO is AMT Kindly fund the account or retry transaction with an amount lesser than the combined balance"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Thank you for using Kotak Credit Card. Your statement date for the current billing cycle will be 20-Apr-2018 &  due date will be 08-May-2018.To know due date anytime in future, simply send SMS \"CCDUE 'Last 4 Digits of Kotak Credit Card'\" to 5676788. Example - \"CCDUE 1234\".",
+          "expected": "Thank you for using Kotak Credit Card Your statement date for the current billing cycle will be DATE & due date will be DATE To know due date anytime in future simply send SMS CCDUE 'Last NUM Digits of Kotak Credit Card' to NUM Example CCDUE NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "We wish to inform you that cheque no 300680 for Rs.5000 deposited in your A/c XXXX2345 has been returned due to FUNDS INSUFFICIENT",
+          "expected": "We wish to inform you that cheque no NUM for AMT deposited in your A\/c INSTRNO has been returned due to FUNDS INSUFFICIENT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Feb-18 Stmt for Kotak Credit Card xxxx1914 has been generated. Due date 15-Mar-18 Min Amt. Rs. 6784.33 . Total Due Rs. 21723.47 . Your e-statement has been sent to your email address registered with the Bank. Visit https://www.kotak.com/ccstmt/nonlogincc/faces/jsp/nonLogin.jsp  to pay your bills and check detailed statement.",
+          "expected": "DATE Stmt for Kotak Credit Card INSTRNO has been generated Due date DATE Min Amt AMT Total Due AMT Your e statement has been sent to your email address registered with the Bank Visit URL to pay your bills and check detailed statement"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Standing Instruction of Rs.21000.00 for beneficiary GAURAV  CHATURVEDI on your A/c XXXX9017 is due on 01-03-2018",
+          "expected": "Standing Instruction of AMT for beneficiary GAURAV CHATURVEDI on your A\/c INSTRNO is due on DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "AutoPay instruction for MOTILAL OSWAL ASSET MANAGEMENT for Rs. 5000.00 is due for payment on 14-Mar-2018 from your Bank account/Credit Card no  xx0264",
+          "expected": "AutoPay instruction for MOTILAL OSWAL ASSET MANAGEMENT for AMT is due for payment on DATE from your Bank account\/Credit Card no INSTRNO"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Kotak alert -Total Due on  Card xxxx4064 is Rs 74444.6. Min amt Rs 11611.18. Due Date 18-Mar-18.To view statement please visit Netbanking at www.kotak.com.Pls ignore if paid.",
+          "expected": "Kotak alert Total Due on Card INSTRNO is AMT Min amt AMT Due Date DATE To view statement please visit Netbanking at URL Pls ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, E-comm/POS txn (ref no.:817710)on card no. ***8042 is rejected due to insufficient funds in a/c ***6969.Kindly check if you have attempted the txn. To block card, SMS - KVBCARD (Last 4 digits of card) BLOCK to 56161 or 9244770000. Helpline-18602001916 - KVB",
+          "expected": "Dear Customer E comm\/POS txn ref no NUM on card no INSTRNO is rejected due to insufficient funds in a\/c INSTRNO Kindly check if you have attempted the txn To block card SMS KVBCARD Last NUM digits of card BLOCK to NUM or NUM Helpline NUM KVB"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Installment amount Rs.1000 falls due in your RD a/c ***0129 on 26/02. Kindly ensure sufficient balance in your a/c ***2646 for auto debit. KVB",
+          "expected": "Dear Customer Installment amount AMT falls due in your RD a\/c INSTRNO on DATE Kindly ensure sufficient balance in your a\/c INSTRNO for auto debit KVB"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Thank you for availing  TWO WHEELER LOAN - EMI  acct ****0120 with KVB. Your next installment due date falls on today(22-FEB-18).",
+          "expected": "Thank you for availing TWO WHEELER LOAN EMI acct INSTRNO with KVB Your next installment due date falls on today DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Premium for Policy No. 788685109 of Rs. *****2467.00 is due on 10/05/2017. You can pay online at www.licindia.in or from mobile at www.licindia.in/mobile.",
+          "expected": "Premium for Policy No NUM of AMT is due on DATE You can pay online at URL or from mobile at URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear customer Your NEFT vide UTR IDVAL for AMT has failed due to CLEARED BAL\/FUNDS\/DP NOT AVAILABLE CARE ACCT WILL BE OVERDRAWN",
+          "expected": "Dear customer Your NEFT vide UTR IDVAL for AMT has failed due to CLEARED BAL\/FUNDS\/DP NOT AVAILABLE CARE ACCT WILL BE OVERDRAWN"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "\"Dear Customer, your statement for AMEX Card **********31003 has been generated. Min payment Rs.299.00/total payment Rs.5,973.07 is due by 18/01/18.\"",
+          "expected": "Dear Customer your statement for AMEX Card INSTRNO has been generated Min payment AMT \/total payment AMT is due by DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Cardmember, your Amex Card Account 61001 has been blocked subject to clearing the minimum due of Rs 2,481. Request you to please call at 18004191230.",
+          "expected": "Dear Cardmember your Amex Card Account NUM has been blocked subject to clearing the minimum due of AMT Request you to please call at NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, the payment of Rs.28,702.00 for AMEX Corporate Card **********41002 is due by 19/03/2018. Please ignore if already paid.",
+          "expected": "Dear Customer the payment of AMT for AMEX Corporate Card INSTRNO is due by DATE Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "A charge of INR 480.00 has been initiated on your American Express Card No. ***01000 at PAYTM COM TELECOM PG on 25/03/2018 at 06:45AM IST.",
+          "expected": "A charge of AMT has been initiated on your American Express Card No INSTRNO at PAYTM COM TELECOM PG on DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Min payment Rs.30,763.92/total payment Rs.109,222.92 for AMEX Card **********61001 is due by 26/03/2018. Please ignore if already paid.",
+          "expected": "Dear Customer Min payment AMT \/total payment AMT for AMEX Card INSTRNO is due by DATE Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Cardmember,The pmt towards your Amex card ending in 51008 was due on 07/03/2018. Kindly make the pmt immediately. Please ignore this msg if already paid.",
+          "expected": "Dear Cardmember The pmt towards your Amex card ending in NUM was due on DATE Kindly make the pmt immediately Please ignore this msg if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Bill of Rs. 614.0 dated  04-Aug-2016 for  Bescom (Bangalore Electricity Supply Company Ltd.)  with  Account Id 4657297572 is due on 03-Sep-2016  . Pay online using PayUmoney on https://pmny.in/ZIdTMmMz8uCd   Pls ignore if already paid .",
+          "expected": "Bill of AMT dated DATE for Bescom Bangalore Electricity Supply Company Ltd with Account Id NUM is due on DATE Pay online using PayUmoney on URL Pls ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your PNB Card statement with total Due of Rs. 1688.5 and Min Due of Rs. 84.43 payable by 28-FEB-2018 has been sent.Please view the same at www.pnbindia.in. Please ignore if already paid.",
+          "expected": "Your PNB Card statement with total Due of AMT and Min Due of AMT payable by DATE has been sent Please view the same at URL Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear SBI Cardholder, as per Service Request No. 129496583674, Merchant EMI loan preclosure request of Rs. 31798.71 on your account has been preclosed successfully.",
+          "expected": "Dear SBI Cardholder as per Service Request No NUM Merchant EMI loan preclosure request of AMT on your account has been preclosed successfully"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,Installment of Rs 2,000.00 for your Recurring Deposit No.TD/RD/72 is due on 07 Oct 2017.Please pay on due date to get the maximum benefit.",
+          "expected": "Dear Customer Installment of AMT for your Recurring Deposit URL is due on DATE Please pay on due date to get the maximum benefit"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear YES BANK customer, EMI of INR 6920 for your loan A/C No. ***********4315 is due on 02-MAR-18. Please maintain sufficient balance in your account.",
+          "expected": "Dear YES BANK customer EMI of AMT for your loan A\/C No INSTRNO is due on DATE Please maintain sufficient balance in your account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Rs 5,000.00 Debited to Ac XX1544 on 04-MAR 22:17-UPI/806322462962/From:9099142974@upi/To:9004677719@upi/loan Tot Avbl Bal-Rs 188,729.70 on 04-Mar 22:17",
+          "expected": "AMT Debited to Ac INSTRNO on DATE UPI\/806322462962\/From NUM @upi\/To NUM @upi\/loan Tot Avbl Bal AMT on DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear YES BANK customer EMI of INR 7758 for your Personal Loan A/C No. PLNXXX4394 is due on 04-Feb-2018.Please maintain sufficient balance in your account.",
+          "expected": "Dear YES BANK customer EMI of AMT for your Personal Loan A\/C No IDVAL is due on DATE Please maintain sufficient balance in your account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Cardmember, Payment for your YES BANK Credit Card ending with 8756 is due on 05/02/2018. Minimum due is Rs. 495.18 & Total outstanding is Rs.8,950.84. Please pay early to avoid charges. Kindly ignore if already paid.",
+          "expected": "Dear Cardmember Payment for your YES BANK Credit Card ending with NUM is due on DATE Minimum due is AMT & Total outstanding is AMT Please pay early to avoid charges Kindly ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Rs 7,758.00 Debited to Ac XX8368 on 05-FEB 13:25-EMI towards Loan No - 00234394 Tot Avbl Bal-Rs 12,007.05 on 05-Feb 13:25",
+          "expected": "AMT Debited to Ac INSTRNO on DATE EMI towards Loan No NUM Tot Avbl Bal AMT on DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Due, Rs.13678 towards your loan A/c X..X7364 inclusive of instalment, payable on 21-09-2018. Contact branch for any clarification. Pls ignore if paid",
+          "expected": "Due AMT towards your loan A\/c INSTRNO inclusive of instalment payable on DATE Contact branch for any clarification Pls ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Payment on credit card ending 0849 is overdue.Our authorized agencies may contact you to remind you about the outstanding dues.To view a list of our authorized agencies,please visit http://www.online.citibank.co.in/portal/newgen/cards/collection_vendors.pdf .Ignore if paid.",
+          "expected": "Dear Customer Payment on credit card ending NUM is overdue Our authorized agencies may contact you to remind you about the outstanding dues To view a list of our authorized agencies please visit URL Ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, payment for Credit Card ending with 0923 is due on 10-Jul-18. Total =Rs.12667.68, Minimum=Rs.5070.30. Kindly ignore if paid.",
+          "expected": "Dear Customer payment for Credit Card ending with NUM is due on DATE Total AMT Minimum AMT Kindly ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,min amt of Rs.13248 on credit card 6438 was due on 07-Feb-18.Your card may get blocked if not paid. Please ignore if already paid.",
+          "expected": "Dear Customer min amt of AMT on credit card NUM was due on DATE Your card may get blocked if not paid Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "EMI payment for AUG18 is due on 01/08/2018 for your Loan no. ending 0505. Amount - Rs.11709. Kindly keep your account funded.",
+          "expected": "EMI payment for DATE is due on DATE for your Loan no ending NUM AMT AMT Kindly keep your account funded"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Payment of Rs.100 has been processed for Citibank credit card on 01-AUG-18 as per your Standing Instruction from your bank a/c ending XXXXXX4814. Thank you.",
+          "expected": "Payment of AMT has been processed for Citibank credit card on DATE as per your Standing Instruction from your bank a\/c ending INSTRNO Thank you"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, Your EMI of Rs.32462 on your PL a/c no.2251  is unpaid. For details, please call on 0124-6159000. Kindly ignore if already paid.",
+          "expected": "Dear Customer Your EMI of AMT on your PL a\/c no NUM is unpaid For details please call on NUM Kindly ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,we regret to inform you that your card ending 1321 has been blocked.Total =Rs.283402.10, Minimum=Rs.108466.75. Linked cards,if any,have also been closed.Kindly clear your outstanding dues on priority.For details call 0124- 6159000.",
+          "expected": "Dear Customer we regret to inform you that your card ending NUM has been blocked Total AMT Minimum AMT Linked cards if any have also been closed Kindly clear your outstanding dues on priority For details call NUM NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Total Outstanding on Card No ****2505 on 19-Aug-18 is INR -0.68 . Available Cash Limit is INR 38400.00 . Available Cr. Limit is INR 128000.00",
+          "expected": "Total Outstanding on Card No INSTRNO on DATE is AMT Available Cash Limit is AMT Available Cr Limit is AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, EMI of Rs.2366 in your Loan A/c XX4241 is due on 06-02-2018.Please keep sufficient balance in SB A/c. Kindly ignore if already paid-Federal Bank?",
+          "expected": "Dear Customer EMI of AMT in your Loan A\/c INSTRNO is due on DATE Please keep sufficient balance in SB A\/c Kindly ignore if already paid Federal Bank?"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your Loan  1255 payment is overdue. Our authorized agency  SHWETA CONSULTANTS - 022-49334633/49334630 may contact you regarding the same. Ignore if paid - StanChart",
+          "expected": "Your Loan NUM payment is overdue Our authorized agency SHWETA CONSULTANTS NUM \/49334630 may contact you regarding the same Ignore if paid StanChart"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your bill of Bharti Airtel Limited, Delhi - 8527639614 for Rs 765.82 has been scheduled for payment from your card ending XXXXXXXXXXXX9291. - StanChart",
+          "expected": "Your bill of Bharti Airtel Limited Delhi NUM for AMT has been scheduled for payment from your card ending INSTRNO StanChart"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your Purchase transaction in Aditya Birla Sun Life Tax Relief'96 Fund - Growth for INR 2,000.00 has been processed by AMC on 07/09/2018- StanChart",
+          "expected": "Your Purchase transaction in Aditya Birla DATE Life Tax Relief'96 Fund Growth for AMT has been processed by AMC on DATE StanChart"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, statement for your credit card ending 0124 is ready for viewing through Internet Banking. Payment due on 01OCT18, Total payment due Rs.19913.1 Min payment due Rs.9481.62",
+          "expected": "Dear Customer statement for your credit card ending NUM is ready for viewing through Internet Banking Payment due on DATE Total payment due AMT Min payment due AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, EMI for your Loan A/c 006-110XXX-001 is due on 01-Sep-18 for which INR  27,946.00  will be debited from your nominated Bank Account on this date. Please ignore this message if you have already paid your EMI or have paid off your loan.",
+          "expected": "Dear Customer EMI for your Loan A\/c 006 INSTRNO is due on DATE for which AMT will be debited from your nominated Bank Account on this date Please ignore this message if you have already paid your EMI or have paid off your loan"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, total payment due on credit card ending with 0415 is INR 20086.06 and minimum payment due is INR 1004.3. To enjoy uninterrupted card usage, please ensure payment is realized by due date 07JUL18. You may pay via NEFT mentioning the complete 16 digit card number and IFSC code HSBC0400002. For more information on various modes of payment refer www.hsbc.co.in/billpay. Kindly ignore, if already paid.",
+          "expected": "Dear Customer total payment due on credit card ending with NUM is AMT and minimum payment due is AMT To enjoy uninterrupted card usage please ensure payment is realized by due date DATE You may pay via NEFT mentioning the complete NUM digit card number and IDVAL code IDVAL For more information on various modes of payment refer URL Kindly ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "HSBC Bill Payment alerts : You have a new APCPDCL bill for Rs 2731.00 due by 18/09/18. You can logon to hsbc@online internet banking to pay this bill.",
+          "expected": "HSBC Bill Payment alerts You have a new APCPDCL bill for AMT due by DATE You can logon to hsbc@online internet banking to pay this bill"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Premium for your ICICIPru policy 20288679 is due on 20-Sep-18 . You can choose to pay now using your credit card on our website www.ipru.co/?pwrxn0mz and enjoy uninterrupted policy benefits. T&C Apply. Ignore if paid.",
+          "expected": "Premium for your ICICIPru policy NUM is due on DATE You can choose to pay now using your credit card on our website URL and enjoy uninterrupted policy benefits T&C Apply Ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Premium of Rs 1000 for your ICICIPru policy 01508017 will be debited from your ICICI Bank account ending with XXXX0012 on 21-Jul-18. To avoid bounce charges please ensure account is sufficiently funded. Ignore if paid",
+          "expected": "Premium of AMT for your ICICIPru policy NUM will be debited from your ICICI Bank account ending with INSTRNO on DATE To avoid bounce charges please ensure account is sufficiently funded Ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Premium of Rs 60000 for your ICICIPru policy 20801366 is unpaid. Pay premium and secure your loved ones. To pay online visit www.ipru.co/?rkv4bjfm or visit our nearest branch. Call 18602667766 for assistance. Ignore if paid.",
+          "expected": "Premium of AMT for your ICICIPru policy NUM is unpaid Pay premium and secure your loved ones To pay online visit URL or visit our nearest branch Call NUM for assistance Ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Premium of Rs. 6250 for ICICIPru LIFE TIME CLASSIC - RP,policy 21119053 is due on 30-Aug-18. Please make timely premium payment to enjoy policy benefits. Pay online at www.ipru.co/?qvlfz3ni to save time. Ignore if paid",
+          "expected": "Premium of AMT for ICICIPru LIFE TIME CLASSIC RP policy NUM is due on DATE Please make timely premium payment to enjoy policy benefits Pay online at URL to save time Ignore if paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, the payment of Rs 16,879.08 for your settlement dated 06-Jul-18 for MID 74712944 has been processed into your account XXXXXXXX 1734. ICICI Merchant Services, Powered by First Data (ISO 9001:2008 Certified).",
+          "expected": "Dear Customer the payment of AMT for your settlement dated DATE for MID NUM has been processed into your account INSTRNO ICICI Merchant Services Powered by First Data ISO NUM NUM Certified"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Total premium due on ICICIPrulife policy No 21184549 for Rs. 789.00 shall be debited from your account within 6 working days. Please maintain sufficient balance.",
+          "expected": "Total premium due on ICICIPrulife policy No NUM for AMT shall be debited from your account within NUM working days Please maintain sufficient balance"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, EMI of Rs.14,339.00 is due on 10 SEP 18 for your loan a/c NNNNNNNNNNN43856. Pls ensure sufficient  funds in your account.",
+          "expected": "Dear Customer EMI of AMT is due on DATE for your loan a\/c INSTRNO Pls ensure sufficient funds in your account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Mini statement for Credit Card 4***0073 Total Due Rs. 3539.00 Minimum Due Rs. 180.00 Payment Due Date: 08/10/2018 Refer statement for more details",
+          "expected": "Mini statement for Credit Card INSTRNO Total Due AMT Minimum Due AMT Payment Due Date DATE Refer statement for more details"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Payment on your CC 4***4851 due on 07/09/18 is 5 days overdue. Total Due Rs. 51914.84 Min Due Rs. 4420.00 Pls pay at the earliest. Ignore if already paid.",
+          "expected": "Payment on your CC INSTRNO due on DATE is NUM days overdue Total Due AMT Min Due AMT Pls pay at the earliest Ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, as per the last statement generated for your IndusInd Bank Credit Card ending # XXXXXXXXXXXX9003 total & minimum amounts due are Rs.34448.96 & Rs.1722.45 respectively. We request you to make the payment by the due date ie 25SEP18. You can use any of our convenient online payment options:http://bit.ly/2B2fkmj or download the all new IndusMobile App to make your Credit Card payment: http://goo.gl/zQM2Yl . Please ignore if paid already.",
+          "expected": "Dear Customer as per the last statement generated for your IndusInd Bank Credit Card ending  INSTRNO total & minimum amounts due are AMT & AMT respectively We request you to make the payment by the due date ie DATE You can use any of our convenient online payment options URL or download the all new IndusMobile App to make your Credit Card payment URL Please ignore if paid already"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, statement for your IndusInd Bank Credit Card # XXXX1000 dated 05-SEP, due Immediate will be delivered shortly. Total Amount Due is INR 125,342.67 and Minimum Amount Due is INR 19,526.61.To keep track of your Credit Card outstanding and view statements, download the IndusMobile App now:  http://goo.gl/zQM2Yl",
+          "expected": "Dear Customer statement for your IndusInd Bank Credit Card  INSTRNO dated DATE due Immediate will be delivered shortly Total Amount Due is AMT and Minimum Amount Due is AMT To keep track of your Credit Card outstanding and view statements download the IndusMobile App now URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, the 03-AUG-2018 Statement for your IndusInd Bank credit card no. XX0006 is delivered to your mailing address. The total and minimum amount due are INR 777.95DR and INR 100 respectively. To view or request for your Credit Card e-Statement, login/download the IndusMobile App: http://goo.gl/zQM2Yl",
+          "expected": "Dear Customer the DATE Statement for your IndusInd Bank credit card no INSTRNO is delivered to your mailing address The total and minimum amount due are AMT DR and AMT respectively To view or request for your Credit Card e Statement login\/download the IndusMobile App URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, the 03-SEP-2018 E-Stmt for your IndusInd Bank Credit Card no. XX0004 is delivered to your email ID INAYATH876@GMAIL.COM The Total & Min amt due are INR 56230.17 DR & INR 6230.17 respectively. Pls check Spam or Promotions folder, if not delivered to your Inbox. To view or request for your Credit Card E-Stmt, login/download the IndusMobile App: http://goo.gl/zQM2Yl",
+          "expected": "Dear Customer the DATE E Stmt for your IndusInd Bank Credit Card no INSTRNO is delivered to your email ID EMAILADDRESS The Total & Min amt due are AMT DR & AMT respectively Pls check Spam or Promotions folder if not delivered to your Inbox To view or request for your Credit Card E Stmt login\/download the IndusMobile App URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your curr loan EMI RS.50400 for SXV00473D due on 21Sep2018. Pls pay or ensure suff bal on presentation. Ignore if paid already. For Queries call 03364582652 mail us in reach4loan@indusind.com",
+          "expected": "Your curr loan EMI AMT for SXV00473D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS m"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your curr loan EMI RS.50400 for SXV00473D due on 21Sep2018. Pls pay or ensure suff bal on presentation. Ignore if paid already. For Queries call 03364582652 mail us in reach4loan@indusind.com",
+          "expected": "Your curr loan EMI AMT for SXV00473D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS m"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer,Your Loan A/c 0012***7000002 with IOB is Overdue for 65 days by Rs.19,369.20 as on 07-JUL-18 [SMA-2].Regularize to avoid punitive action.",
+          "expected": "Dear Customer Your Loan A\/c INSTRNO with IOB is Overdue for NUM days by AMT as on DATE [SMA NUM ] Regularize to avoid punitive action"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Instalment of Rs.1,00,000.00 for your IOB Loan Ac ***533400002 is due on 04-FEB-18.Pl ignore if already paid.Use IOB mPassBook app for access to A/C details.",
+          "expected": "Instalment of AMT for your IOB Loan Ac INSTRNO is due on DATE Pl ignore if already paid Use IOB mPassBook app for access to A\/C details"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "STMT for your IOB credit card 470963XXXXXX6109 is generated.TTL amt due -Rs.22026.81.Min amt due-Rs.2308.71.PYMNT due date 09-SEP-2018",
+          "expected": "STMT for your IOB credit card INSTRNO is generated TTL amt due AMT Min amt due AMT PYMNT due date DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "An amount of Rs.10,740.00 [plus arrears ofNIL]      is due for payment in loan a/c xxxxxxxx002973xx On 09/09/2018-K.B.L(if paid/arranged ignore)",
+          "expected": "An amount of AMT [plus arrears ofNIL] is due for payment in loan a\/c INSTRNO On DATE K B L if paid\/arranged ignore"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "DEAR CUSTOMER,YOUR LOAN A/C NO XXXXXXX0166 INSTALLMENT OF Rs.17,781.00( AND INTEREST FOR NON EMI )IS FALLING DUE ON 18/08/2018.PLEASE MAKE PAactYMENT TO AVOID ANY PENALTY. PLEASE IGNORE IF ALREADY PAID.",
+          "expected": "DEAR CUSTOMER YOUR LOAN A\/C NO INSTRNO INSTALLMENT OF AMT AND INTEREST FOR NON EMI IS FALLING DUE ON DATE PLEASE MAKE PAactYMENT TO AVOID ANY PENALTY PLEASE IGNORE IF ALREADY PAID"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Thank you for using PNBRewardz.com to recharge mobile number 9779506746 for Rs.10.00. Your Ref. No. is CABI/PB/2953590. You can also recharge with PNB Rewardz app. Use now goo.gl/O6tvTD . T",
+          "expected": "Thank you for using PNBRewardz com to recharge mobile number NUM for AMT Your Ref No is IDVAL PB\/2953590 You can also recharge with PNB Rewardz app Use now URL T"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "BillPay - Your payment for Maharashtra State Electricity Board bill - A/c Ref No 170564832793 for Rs 420.00 has been processed successfully.",
+          "expected": "BillPay Your payment for Maharashtra State Electricity Board bill A\/c Ref No NUM for AMT has been processed successfully"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Payment for your RBL Bank Credit Card is due on 11-09-2018. Total Amount due is Rs. 57826.98 . Please make a payment for minimum amount due of Rs. 3229.82 to enjoy uninterrupted services on your Card. Please ignore if already paid. You can make your Card payment using RBL MyCard Mobile App at your convenience. Download now on http://onelink.to/389ejv . Watch the video to know about the various payment options - http://bit.ly/2vkTN7C .",
+          "expected": "Payment for your RBL Bank Credit Card is due on DATE Total Amount due is AMT Please make a payment for minimum amount due of AMT to enjoy uninterrupted services on your Card Please ignore if already paid You can make your Card payment using RBL MyCard Mobile App at your convenience Download now on URL Watch the video to know about the various payment options URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Payment for your RBL Bank Credit Card is overdue. Total Amount outstanding  of Rs. 62319.66 was due by 11-08-2018. Please make a payment for minimum amount due of Rs.  14967.10 immediately. Please ignore if you have made the payment recently. Pay using RBL MyCard Mobile App at your convenience. Download now on  http://onelink.to/389ejv . For more payment options, visit http://bit.ly/2GwNCpx or watch the video http://bit.ly/2vkTN7C",
+          "expected": "Payment for your RBL Bank Credit Card is overdue Total Amount outstanding of AMT was due by DATE Please make a payment for minimum amount due of AMT immediately Please ignore if you have made the payment recently Pay using RBL MyCard Mobile App at your convenience Download now on URL For more payment options visit URL or watch the video URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your RBL Bank Credit Card outstanding of Rs. 1260.00 is due for payment on 05-07-2018 . Please pay the minimum amount due of Rs. 200.00 to enjoy uninterrupted services on your Card. Please ignore if already paid. You can pay your RBL Credit Card bill using RBL MyCard Mobile App at your convenience. Download now on http://onelink.to/389ejv",
+          "expected": "Your RBL Bank Credit Card outstanding of AMT is due for payment on DATE Please pay the minimum amount due of AMT to enjoy uninterrupted services on your Card Please ignore if already paid You can pay your RBL Credit Card bill using RBL MyCard Mobile App at your convenience Download now on URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your RBL Bank credit card account XXXX-0799 bill of Rs. 41930.82 with due date 17-09-2018 has been sent & will reach you in next 7 days.",
+          "expected": "Your RBL Bank credit card account INSTRNO bill of AMT with due date DATE has been sent & will reach you in next NUM days"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear AGNITROY BANERJEE, Transfer of Rs.5000 to MrRAGHUWARRANJAN has been successful with REF No:LDV3L9Y",
+          "expected": "Dear AGNITROY BANERJEE Transfer of AMT to MrRAGHUWARRANJAN has been successful with REF No IDVAL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, EMI of Rs 42,920.00 is due in your account TL/B-LOAN/47.Please pay by 30/04/18.-SVCBank",
+          "expected": "Dear Customer EMI of AMT is due in your account TL\/B LOAN\/47 Please pay by DATE SVCBank"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear YES BANK customer, EMI of INR 10639 for your loan A/C No. ***********4887 is due on 04-APR-18. Please maintain sufficient balance in your account.",
+          "expected": "Dear YES BANK customer EMI of AMT for your loan A\/C No INSTRNO is due on DATE Please maintain sufficient balance in your account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear SVC Customer, Your Payment for Rs.100.00 has been processed successfully. Ack no:P2018252595378",
+          "expected": "Dear SVC Customer Your Payment for AMT has been processed successfully Ack no IDVAL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear SVC Customer, Your Payment for Rs.100.00 has been processed successfully. Ack no:P2018252595378",
+          "expected": "Dear SVC Customer Your Payment for AMT has been processed successfully Ack no IDVAL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your UBI Loan account XXXXXX0202992 under scheme UNITED EDU.LOAN SIMPLE is due for payment on 14-SEP-18 .Please ignore if already paid",
+          "expected": "Your UBI Loan account INSTRNO under scheme UNITED EDU LOAN SIMPLE is due for payment on DATE Please ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Cardmember, statement for your YES BANK Credit Card ending 8340 has been generated and will reach you shortly through your preferred medium. Total Amount Due:INR 9,379.76. Minimum Amount Due:INR 468.99 and Payment Due Date:10/10/2018.",
+          "expected": "Dear Cardmember statement for your YES BANK Credit Card ending NUM has been generated and will reach you shortly through your preferred medium Total Amount Due AMT Minimum Amount Due AMT and Payment Due Date DATE"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear YES BANK customer, EMI of INR 10639 for your loan A/C No. ***********4887 is due on 04-APR-18. Please maintain sufficient balance in your account.",
+          "expected": "Dear YES BANK customer EMI of AMT for your loan A\/C No INSTRNO is due on DATE Please maintain sufficient balance in your account"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Woo-hoo! You have successfully renewed your ZEE5 Premium for 365 DAY. Please note that the pack will expire on 12/02/2023. Watch Premium Content here bit.ly/ 2YdVAbE-ZEE5",
+          "expected": "Woo hoo You have successfully renewed your ZEE5 Premium for NUM DAY Please note that the pack will expire on DATE Watch Premium Content here URL 2YdVAbE ZEE5"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Yay!\nDisney+ Hotstar Premium (Annual) has been successfully activated on your Disney+ Hotstar account linked to 9886477784\nAmount billed: Rs.1499.00\nNext billing date: Aug 01, 2022\nWe're here to help. Write to us at subscribe@hotstar.com\nStart watching -\nhttps://www.hotstar.com/in",
+          "expected": "Yay Disney+ Hotstar Premium Annual has been successfully activated on your Disney+ Hotstar account linked to NUM Amount billed AMT Next billing date DATE We're here to help Write to us at subscribe@hotstar com Start watching URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Recharge of Rs. 1178.82 is successful\nfor your JioFiber connection having\nJioFixedVoice Number +918079690508.\nEntitlements: Benefits\n1. Unlimited Data @ 150 Mbps\n2. Unlimited Voice\n3. Subscription to 14 PAID OTT Apps\nValidity - 30 days\nTransaction ID: TB00001DJMS9 To download recharge invoice, click http://tiny.jio.com/GRYUOGP Now manage your account anytime, anywhere on your smartphone with My Jio app, click www.jio.com/GetMyJio To share your recharge experience, click https://www.jio.com/en-in/jiofiber-recharge-survey-direct-english?custid=TB00001DJMS9 For any support, call us on 18008969999.",
+          "expected": "Recharge of AMT is successful for your JioFiber connection having JioFixedVoice Number NUM Entitlements Benefits NUM Unlimited Data @ NUM Mbps NUM Unlimited Voice NUM Subscription to NUM PAID OTT Apps Validity NUM days Transaction ID IDVAL To download recharge invoice click URL Now manage your account anytime anywhere on your smartphone with My Jio app click URL To share your recharge experience click URL For any support call us on NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "This is a comfirmation of receipt of Rs.212.22 towards ACT Fibernet A/C no 1234567890.",
+          "expected": "This is a comfirmation of receipt of AMT towards ACT Fibernet A\/C no NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Hi, validity for your Airtel Xstream Fiber ID 20000419052 has expired. Recharge now with Rs 943 to resume the services. To recharge, click www.airtel.in/5/C_Summary?n=013110203026_dsl. Please ignore if already paid.\nhttps://truecaller.slack.com/archives/GPYSTD6B1/p1654175306335819",
+          "expected": "Hi validity for your Airtel Xstream Fiber ID NUM has expired Recharge now with AMT to resume the services To recharge click URL Please ignore if already paid URL"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Hi, Renew your Advance Rental 3565.97 (including GST) for 3 months for your Airtel Xstream Fiber ID 048446108030_ker. Please click on Pay Advance option on https://www.airtel.in/5/BBARPP to pay & continue enjoying ARP benefits.",
+          "expected": "Hi Renew your Advance Rental AMT including GST for NUM months for your Airtel Xstream Fiber ID NUM _ker Please click on Pay Advance option on URL to pay & continue enjoying ARP benefits"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your plan JioFiber_1M_399 for JioFiber connection having JioFixedVoice Number +912913556025 has expired on 18-Jun-22 14:11 Hrs. To continue enjoying services, recharge immediately. To recharge using MyJio app, click http://tiny1.jio.com/JioFiberRecharge\nFor any support, call us on 18008969999.",
+          "expected": "Your plan JioFiber_1M_399 for JioFiber connection having JioFixedVoice Number NUM has expired on DATE To continue enjoying services recharge immediately To recharge using MyJio app click URL For any support call us on NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your current plan JioFiber_1M_399 for JioFiber connection having JioFixedVoice Number +912913556025 will expire on 18-Jun-22 14:11 Hrs. After current plan expiry, your Internet and outgoing calling services will stop working if you do not recharge with a plan. To recharge using MyJio app, click http://tiny1.jio.com/JioFiberRecharge\nFor any support, call us on 18008969999.",
+          "expected": "Your current plan JioFiber_1M_399 for JioFiber connection having JioFixedVoice Number NUM will expire on DATE After current plan expiry your Internet and outgoing calling services will stop working if you do not recharge with a plan To recharge using MyJio app click URL For any support call us on NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "IMPORTANT! JioFiber plan expires TOMORROW. Get TRULY UNLIMITED internet starting at Rs. 399 with unlimited voice calling. Click https://www.jio.com/fiberrchg . T&C apply.",
+          "expected": "IMPORTANT JioFiber plan expires TOMORROW Get TRULY UNLIMITED internet starting at AMT with unlimited voice calling Click URL T&C apply"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "IMPORTANT! @Michael  JioFiber plan expires TOMORROW. T&C apply.",
+          "expected": "IMPORTANT @Michael JioFiber plan expires TOMORROW T&C apply"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Dear Customer, txn on prepaid card xxxx0078 for Rs 1076.38 on 24-04-2017 15:13 at VODAFONE-BILLDESK     ,MUMBAI        is approved. Avl balance Rs 512.12",
+          "expected": "Dear Customer txn on prepaid card INSTRNO for AMT on DATE at VODAFONE BILLDESK MUMBAI is approved Avl balance AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "A transaction of Rs 1.00 has been done using your BOI Credit Card 4****3250 at TATA DOCOMO-BILLDESK, MUMBAI IN at 08:45",
+          "expected": "A transaction of AMT has been done using your BOI Credit Card INSTRNO at TATA DOCOMO BILLDESK MUMBAI IN at TIME"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "BOI -  Rs 1180 has been Debited to Your Account XX7804 from POS-WELCOME SWEET On 16-10-2017.Available Balance 138537.46.",
+          "expected": "BOI AMT has been Debited to Your Account INSTRNO from POS WELCOME SWEET On DATE Available Balance AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "BOI Star Sandesh* Your a/c no. XXXXXXXXXX8387 is debited for Rs.5000.00 on 12-04-17 and a/c XXXXXXXXXXX741 credited (IMPS ref no 710206907831)",
+          "expected": "BOI Star Sandesh* Your a\/c no INSTRNO is debited for AMT on DATE and a\/c INSTRNO credited IMPS ref no NUM"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "*BOI Star Sandesh* Rs 10800.00 has been Debited in your account XXXX4585 on 02-05-2017 To NEFT BKIDN17122160959.Available Balance 22520.79",
+          "expected": "*BOI Star Sandesh* AMT has been Debited in your account INSTRNO on DATE To NEFT BKIDN17122160959 Available Balance AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "*BOI Star Sandesh* Rs 7500.00 has been Debited in your account XXXX4585 on 03-05-2017 To NEFT BKIDN17123263586.Available Balance 9569.04\n",
+          "expected": "*BOI Star Sandesh* AMT has been Debited in your account INSTRNO on DATE To NEFT BKIDN17123263586 Available Balance AMT"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Ola! Your bill for KRN172996029 is Rs. 186 (Incl of all taxes).  Distance: 12.41KM. Ride Time: 32 minutes. Please email us on support@olacabs.com for any query.",
+          "expected": "Ola Your bill for KRN172996029 is AMT Incl of all taxes Distance DST Ride Time TIME Please email us on EMAILADDRESS for any query"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Shivakumar  S (9035366874) is on the way to your location in a Silver Swift KA05MP9664. You are paying Rs. 96 for this ride. Share OTP 6969 only on boarding cab.",
+          "expected": "Shivakumar S NUM is on the way to your location in a Silver Swift KA05MP9664 You are paying AMT for this ride Share OTP NUM only on boarding cab"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Naveed Pasha (9945808995) is on the way to your location in a Silver Zest KA03AD8813. You are paying Rs. 135 for this ride. Once you board the cab please share OSN300381765 with driver to start trip.",
+          "expected": "Naveed Pasha NUM is on the way to your location in a Silver Zest KA03AD8813 You are paying AMT for this ride Once you board the cab please share OSN300381765 with driver to start trip"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "The total bill for your Ola ride served by Ashok (UP16BD0489) is Rs. 250. Thank you for travelling with us.",
+          "expected": "The total bill for your Ola ride served by Ashok UP16BD0489 is AMT Thank you for travelling with us"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Eshawar M C (9071085056) is arriving at 02:18 PM in a KA51D1467 - Silver Etios. Your total fare is Rs.74 and cash to be paid is Rs.0. Share OTP - 6354 only on boarding the cab.",
+          "expected": "Eshawar M C NUM is arriving at TIME in a KA51D1467 Silver Etios Your total fare is AMT and cash to be paid is AMT Share OTP NUM only on boarding the cab"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Yogesh J R (9945272318) is on the way in a Silver Ritz KA02AF2721. Please reach Mall Entry gate to board your cab. You?re paying Rs. 163 for this ride. Share OTP 9426 only on boarding cab",
+          "expected": "Yogesh J R NUM is on the way in a Silver Ritz KA02AF2721 Please reach Mall Entry gate to board your cab You?re paying AMT for this ride Share OTP NUM only on boarding cab"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Hi! Rs. 599.00 has been credited to your Ola Money account for transaction id C8P1-3YPP-CDFR. Your updated Ola Money balance is Rs. 599.00. Help your loved ones during the cash crisis. Send /Receive Ola Money through your Ola cabs app in a click.",
+          "expected": "Hi AMT has been credited to your Ola Money account for transaction id IDVAL Your updated Ola Money balance is AMT Help your loved ones during the cash crisis Send \/Receive Ola Money through your Ola cabs app in a click"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Rs. 528 is the total bill for your Ola ride served by CHETHAN. Rs. 400 Ola Money has been deducted. Please pay Rs. 128 in cash.",
+          "expected": "AMT is the total bill for your Ola ride served by CHETHAN AMT Ola Money has been deducted Please pay AMT in cash"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Your payment of Rs.203.0 for ride with CRN 789514066 is due. Please clear your dues at the earliest to enjoy uninterrupted rides on Ola. Ignore if already paid.",
+          "expected": "Your payment of AMT for ride with CRN NUM is due Please clear your dues at the earliest to enjoy uninterrupted rides on Ola Ignore if already paid"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Rs. 165 Ola Money has been deducted as bill amount for your Ola ride, served by Murali Mohan.",
+          "expected": "AMT Ola Money has been deducted as bill amount for your Ola ride served by Murali Mohan"
+      },
+      {
+          "date": "2/18/2018 21:43",
+          "addr": "AXISBK",
+          "body": "Rs. 100 will be charged on your next ride as cancellation fee. If you are charged incorrectly, go to support section on app and claim a refund.",
+          "expected": "AMT will be charged on your next ride as cancellation fee If you are charged incorrectly go to support section on app and claim a refund"
+      },
+      {
+          "date": "2/19/2018 13:00",
+          "addr": "CANBNK",
+          "body": "Cheque No. 000000177256 for Rs 20,000.00 to the debit of a/c no. XXXXXXXXX0283 issued in favour of To CLG 600059000 is received in clearing today. If not issued by you,please contact your branch immediately - Canara Bank .",
+          "expected": "Cheque No NUM for AMT to the debit of a\/c no INSTRNO issued in favour of To CLG NUM is received in clearing today If not issued by you please contact your branch immediately Canara Bank"
+        },
+        {
+          "date": "2/19/2018 13:00",
+          "addr": "CANBNK",
+          "body": "An amount of INR 66.13 has been credited to your account xxxxxxxxx25463 on 14Aug2017 being the LPG subsidy remitted by BPCL - CANARA BANK",
+          "expected": "An amount of AMT has been credited to your account INSTRNO on DATE being the LPG subsidy remitted by BPCL CANARA BANK"
+        },
+        {
+          "date": "2/19/2018 13:00",
+          "addr": "CANBNK",
+          "body": "An amount of INR 8,956.00 has been DEBITED to  your account XXXXXXXXX0283 on 01/08/2017 towards interest. Total Avail.bal INR 68,621.00",
+          "expected": "An amount of AMT has been DEBITED to your account INSTRNO on DATE towards interest Total Avail bal AMT"
+        },
+        {
+            "date": "2/19/2018 13:00",
+            "addr": "CENTBK",
+            "body": "Dear Customer, your Account Number XXXXXX2136 has been credited by Rs            244.000 being DBT/DBTL funds transfer on 16/01/2018 - CENTRAL BANK OF INDIA",
+            "expected": "Dear Customer your Account Number INSTRNO has been credited by AMT being DBT\/DBTL funds transfer on DATE CENTRAL BANK OF INDIA"
+          },
+          {
+            "date": "2/19/2018 13:00",
+            "addr": "CENTBK",
+            "body": "Dear Cardholder, we have recd Rs. 10000 towards Refund/Reversal on your card ending with 9003 . Your available limit is Rs.22106.1",
+            "expected": "Dear Cardholder we have recd AMT towards Refund\/Reversal on your card ending with NUM Your available limit is AMT"
+          },
+          {
+            "date": "2/19/2018 13:00",
+            "addr": "CENTBK",
+            "body": "Your A/c No. XXXXXXXXX2136 is debited for Rs. 5000 on 17-01-18 and A/cXXXXXXX174 credited ( IMPS Ref No. 801720569384 ).",
+            "expected": "Your A\/c No INSTRNO is debited for AMT on DATE and A\/cINSTRNO credited IMPS Ref No NUM"
+          },
+          {
+              "body": "Rs. 20,000.00 paid through clearing in a/c xxxx4039 vide cheque no. 00064299 favoring NISHITA MEHTA on 29/01/2018. AVL Bal is Rs. 1,08,338.85",
+              "date": "17-10-17 16:02",
+              "addr": "MAHABK",
+              "expected": "AMT paid through clearing in a\/c INSTRNO vide cheque no NUM favoring NISHITA MEHTA on DATE AVL Bal is AMT"
+            },
+            {
+              "body": "An amount of INR 21,425.00 has been DEBITED to  your account XXXXXXXXX1670 on 03/02/2018 towards cheque no:000000493650.Total Avail.bal INR 2,11,649.52",
+              "date": "17-10-17 16:02",
+              "addr": "CANBNK",
+              "expected": "An amount of AMT has been DEBITED to your account INSTRNO on DATE towards cheque no NUM Total Avail bal AMT"
+            },
+            {
+              "body": "An amount of INR 25,000.00 has been DEBITED to  your account XXXXXXXXX0755 on 01/02/2018 towards cheque withdrawal cheque no:000000765063.Total Avail.bal INR 18,408.97",
+              "date": "17-10-17 16:02",
+              "addr": "CANBNK",
+              "expected": "An amount of AMT has been DEBITED to your account INSTRNO on DATE towards cheque withdrawal cheque no NUM Total Avail bal AMT"
+            },
+            {
+              "body": "Outward Clearing cheque No 000000174033 for Rs 50,000.00 realized and available balance in your account No. XXXXXXXXX8331 is  Rs 1,47,082.41.",
+              "date": "17-10-17 16:02",
+              "addr": "CANBNK",
+              "expected": "Outward Clearing cheque No NUM for AMT realized and available balance in your account No INSTRNO is AMT"
+            },
+            {
+              "body": "Dear Customer, your Acct XX0816 has been debited with INR 29,870.00 vide cheque 452721-Mar-18. Info: LIC of India. The Available Balance is INR 1,00,585.26.",
+              "date": "17-10-17 16:02",
+              "addr": "ICICIB",
+              "expected": "Dear Customer your Acct INSTRNO has been debited with AMT vide cheque NUM DATE Info LIC of India The Available Balance is AMT"
+            },
+            {
+                "body": "Dear Customer, payment of INR 14100 towards ICICI Bank Credit Card XX5018 has been received through cheque no. 168974 on 26-FEB-18. Thank You.",
+                "date": "17-10-17 16:02",
+                "addr": "ICICIB",
+                "expected": "Dear Customer payment of AMT towards ICICI Bank Credit Card INSTRNO has been received through cheque no NUM on DATE Thank You"
+              },
+              {
+                "body": "Dear Customer, returned cheque 693215 of Acct XX7012 has been sent to you by Blue Dart Courier, AWB 34514662781 on 04-AUG-17.",
+                "date": "17-10-17 16:02",
+                "addr": "ICICIB",
+                "expected": "Dear Customer returned cheque NUM of Acct INSTRNO has been sent to you by Blue Dart Courier AWB NUM on DATE"
+              },
+              {
+                "body": "Dear Customer, Your cheque 834302  submitted with account opening application is credited to your account number  159***391361 with value date 16/02/18.",
+                "date": "17-10-17 16:02",
+                "addr": "INDUSB",
+                "expected": "Dear Customer Your cheque NUM submitted with account opening application is credited to your account number INSTRNO with value date DATE"
+              },
+              {
+                "body": "Dear Customer, Your cheque 7-2209  submitted with account opening application is credited to your account number  201***302820 with value date 17/03/18.",
+                "date": "17-10-17 16:02",
+                "addr": "INDUSB",
+                "expected": "Dear Customer Your cheque NUM submitted with account opening application is credited to your account number INSTRNO with value date DATE"
+              },
+              {
+                "body": "We are unable to process cheque no 1768 issued from A/c XXXX0134 for Rs.11092 due to FUNDS INSUFFICIENT. For more details please visit your nearest branch.",
+                "date": "17-10-17 16:02",
+                "addr": "KOTAKB",
+                "expected": "We are unable to process cheque no NUM issued from A\/c INSTRNO for AMT due to FUNDS INSUFFICIENT For more details please visit your nearest branch"
+              },
+              {
+                "body": "Your cheque no. 2 issued from A/c XXXX2508 for Rs.3180 has been returned due to DRAWERS SIGNATURE DIFFER",
+                "date": "17-10-17 16:02",
+                "addr": "KOTAKB",
+                "expected": "Your cheque no NUM issued from A\/c INSTRNO for AMT has been returned due to DRAWERS SIGNATURE DIFFER"
+              },
+              {
+                "body": "Your cheque no. 1 issued from A/c XXXX4120 for Rs.25000 has been returned due to CHQ IRREGULARLY DRAWN/AMT IN WORD & FIGURE DIFFER",
+                "date": "17-10-17 16:02",
+                "addr": "KOTAKB",
+                "expected": "Your cheque no NUM issued from A\/c INSTRNO for AMT has been returned due to CHQ IRREGULARLY DRAWN\/AMT IN WORD & FIGURE DIFFER"
+              },
+              {
+                "body": "Payment of Rs 48000 received for Card Noxxxx6428 by chq 3 on 26-Feb-2018. Credit will be given on cheque realization",
+                "date": "17-10-17 16:02",
+                "addr": "KOTAKB",
+                "expected": "Payment of AMT received for Card NoINSTRNO by chq NUM on DATE Credit will be given on cheque realization"
+              },
+              {
+                  "body": "We acknowledge the receipt of cheque deposit through the kiosk at Lokhandwala on 26/02/2018 in 4611889726 Ref. Number: KOT26022018123744",
+                  "date": "17-10-17 16:02",
+                  "addr": "KOTAKB",
+                  "expected":"We acknowledge the receipt of cheque deposit through the kiosk at Lokhandwala on DATE in NUM Ref Number IDVAL"
+                },
+                {
+                  "body": "We wish to inform you that cheque no 7 for Rs.1500000 deposited in your A/c XXXX4595 has been returned due to DRAWERS SIGNATURE REQUIRED",
+                  "date": "17-10-17 16:02",
+                  "addr": "KOTAKB",
+                  "expected":"We wish to inform you that cheque no NUM for AMT deposited in your A\/c INSTRNO has been returned due to DRAWERS SIGNATURE REQUIRED"
+                },
+                {
+                  "body": "Please note 3 cheques returned from your account in this month. Ensure to maintain required balance, in case of query contact base branch.",
+                  "date": "17-10-17 16:02",
+                  "addr": "PNBSMS",
+                  "expected":"Please note NUM cheques returned from your account in this month Ensure to maintain required balance in case of query contact base branch"
+                },
+                {
+                  "body": "Dear Customer,cheque # 000000753815 for INR 5000 from YES BANK Account 0085XXXXXXX8064  received for inward clearing on 31-DEC-16 has been rejected due to reason IMAGE NOT CLEAR, PRESENT AGAIN WITH PAPE.Please call 18002000 for details.",
+                  "date": "17-10-17 16:02",
+                  "addr": "YESBNK",
+                  "expected":"Dear Customer cheque  NUM for AMT from YES BANK Account INSTRNO received for inward clearing on DATE has been rejected due to reason IMAGE NOT CLEAR PRESENT AGAIN WITH PAPE Please call NUM for details"
+                },
+                {
+                  "body": "Dear Customer, Congratulations! Your Personal Loan application for Rs. 260000 has been approved by ICICI Bank for a tenure of 60 months. Please contact your Channel Partner for an early disbursal.",
+                  "date": "17-10-17 16:02",
+                  "addr": "ICICIP",
+                  "expected":"Dear Customer Congratulations Your Personal Loan application for AMT has been approved by ICICI Bank for a tenure of NUM months Please contact your Channel Partner for an early disbursal"
+                },
+                {
+                  "body": "Thank you. We have received the premium of Rs.50000 for your ICICIPru policy no.19256106. This will be applied to your policy, subject to realization on the due date or the payment date(if it is after due date). We will send you a confirmation with a premium receipt",
+                  "date": "17-10-17 16:02",
+                  "addr": "ICICIP",
+                  "expected":"Thank you We have received the premium of AMT for your ICICIPru policy no NUM This will be applied to your policy subject to realization on the due date or the payment date if it is after due date We will send you a confirmation with a premium receipt"
+                },
+                {
+                  "body": "Dear Customer, premium of Rs 15103 for your ICICIPru policy 16475170 is due . To view your policy details and download your renewal premium notice visit www.ipru.co/?h9zkkfol. To pay online visit www.ipru.co/?kxged0up . T & C. Ignore if paid.",
+                  "date": "17-10-17 16:02",
+                  "addr": "ICICIP",
+                  "expected":"Dear Customer premium of AMT for your ICICIPru policy NUM is due To view your policy details and download your renewal premium notice visit URL To pay online visit URL T & C Ignore if paid"
+                },
+                {
+                  "body": "Thank you! You have confirmed your application for ICICI Prudential Life Time Classic with a premium amount of Rs. 130000 payable for 7 years and policy term of 10 years. Call on 18002660133 before 24/12/2017 to modify the details with your request no. 111226618",
+                  "date": "17-10-17 16:02",
+                  "addr": "ICICIP",
+                  "expected":"Thank you You have confirmed your application for ICICI Prudential Life Time Classic with a premium amount of AMT payable for NUM years and policy term of NUM years Call on NUM before DATE to modify the details with your request no NUM"
+                },
+                {
+                  "body": "Tomorrow is your premium due date for ICICIPru WEALTH BUILDER - RP policy no 19016628. Premium of Rs 101000 shall be debited from your Bank Account. Kindly keep your account funded. Ignore if paid.",
+                  "date": "17-10-17 16:02",
+                  "addr": "ICICIP",
+                  "expected":"Tomorrow is your premium due date for ICICIPru WEALTH BUILDER RP policy no NUM Premium of AMT shall be debited from your Bank Account Kindly keep your account funded Ignore if paid"
+                },
+                {
+                  "body": "Premium of Rs 101000 for your ICICIPru policy 19016628 will be debited from your ICICI Bank account ending with XXXX5653 on 08-Dec-17. To avoid bounce charges please ensure account is sufficiently funded. Ignore if paid",
+                  "date": "17-10-17 16:02",
+                  "addr": "ICICIP",
+                  "expected":"Premium of AMT for your ICICIPru policy NUM will be debited from your ICICI Bank account ending with INSTRNO on DATE To avoid bounce charges please ensure account is sufficiently funded Ignore if paid"
+                },
+                {
+                  "body": "Premium of Rs 2855 for your ICICIPrulife policy no. 19922384 is due, payment intimation is uploaded on your Bank website. To continue policy benefits, please authorize the payment or maintain sufficient balance for auto-debit as applicable.",
+                  "date": "17-10-17 16:02",
+                  "addr": "ICICIP",
+                  "expected":"Premium of AMT for your ICICIPrulife policy no NUM is due payment intimation is uploaded on your Bank website To continue policy benefits please authorize the payment or maintain sufficient balance for auto debit as applicable"
+                },
+                {
+                  "body": "Thank you for applying for ICICI Prudential Future Perfect with application no.WL00173400 with a Monthly premium of Rs. 3659. To view your application detail click : www.ipru.co/?arx8yfgh",
+                  "date": "17-10-17 16:02",
+                  "addr": "ICICIP",
+                  "expected":"Thank you for applying for ICICI Prudential Future Perfect with application no IDVAL with a Monthly premium of AMT To view your application detail click URL"
+                },
+                {
+                  "body": "*BOI Star Sandesh* Cheque number 000041 for amount 27680.00 has been presented in clearing today. Cheque will be passed if otherwise in order.Please contact your BRANCH immediately if not issued or have any doubt.",
+                  "date": "17-10-17 16:02",
+                  "addr": "BOIIND",
+                  "expected":"*BOI Star Sandesh* Cheque number NUM for AMT has been presented in clearing today Cheque will be passed if otherwise in order Please contact your BRANCH immediately if not issued or have any doubt"
+                },
+                {
+                  "body": "A Clearing Cheque 305027 of Rs. 5964 is being processed in Your UBI Account xxxxxxxxx7842 for payment. If not issued, pl. contact your branch imdtly",
+                  "date": "17-10-17 16:02",
+                  "addr": "BOIIND",
+                  "expected":"A Clearing Cheque NUM of AMT is being processed in Your UBI Account INSTRNO for payment If not issued pl contact your branch imdtly"
+                },
+                {
+                    "addr": "FLPKRT",
+                    "body": "Order Placed: Your order for Vami Round Neck Women'... with order id OD110364653868704000 amounting to Rs.541 has been received.  You can expect delivery by Tue 10, Oct 2017.  We will send you an update when your order is packed/shipped.You can manage your order here http://fkrt.it/iUele!NNNN .",
+                    "date": "03-11-17 20:50",
+                    "expected":"Order Placed Your order for Vami Round Neck Women' with order id IDVAL amounting to AMT has been received You can expect delivery by DATE We will send you an update when your order is packed\/shipped You can manage your order here URL"
+                  },
+                  {
+                    "addr": "FLPKRT",
+                    "body": "Order Received: We have received your order for Skullcandy S2DUL-J846 ... with order id OD109106834392672000 amounting to Rs.649. You can expect delivery by Thu 18, May 2017. We will send you an update when your order is packed. Manage your order http://fkrt.it/aGgyATuuuN .",
+                    "date": "03-11-17 20:50",
+                    "expected":"Order Received We have received your order for Skullcandy S2DUL J846 with order id IDVAL amounting to AMT You can expect delivery by DATE We will send you an update when your order is packed Manage your order URL"
+                  },
+                  {
+                    "addr": "FLPKRT",
+                    "body": "Packed: Your Amez Back Cover for SA... with order id OD109168202398670000 has  been packed by the seller and will be shipped soon. We will send you the tracking id once the item is  on its way to you. Manage your order here http://fkrt.it/CT23m!NNNN",
+                    "date": "03-11-17 20:50",
+                    "expected":"Packed Your Amez Back Cover for SA with order id IDVAL has been packed by the seller and will be shipped soon We will send you the tracking id once the item is on its way to you Manage your order here URL"
+                  },
+                  {
+                    "addr": "FLPKRT",
+                    "body": "Shipped: Your Skullcandy S2DUL-J846 ... with order id OD109106834392672000 has been shipped and will be delivered  by Thursday, May 18, 2017. You will receive another SMS when the courier executive is out to deliver it.",
+                    "date": "03-11-17 20:50",
+                    "expected":"Shipped Your Skullcandy S2DUL J846 with order id IDVAL has been shipped and will be delivered by DATE You will receive another SMS when the courier executive is out to deliver it"
+                  },
+                  {
+                    "addr": "FLPKRT",
+                    "body": "Pickup and Refund Update: We have arranged for the pickup of Amez Ba... with order id OD109168202398670000. Please keep the item along with accessories, tags & invoice ready for pickup. The refund will be processed after the seller receives the item.                              Check your email for more details.",
+                    "date": "03-11-17 20:50",
+                    "expected":"Pickup and Refund Update We have arranged for the pickup of Amez Ba with order id IDVAL Please keep the item along with accessories tags & invoice ready for pickup The refund will be processed after the seller receives the item Check your email for more details"
+                  },
+                  {
+                      "addr": "FLPKRT",
+                      "body": "ACTION REQUIRED: The delivery attempt for your Flipkart shipment with Tracking ID 700008884841 was not successful. To request reattempt of delivery or to cancel the order, please click here: http://fkrt.it/Ag~ErTuuuN .",
+                      "date": "03-11-17 20:50",
+                      "expected":"ACTION REQUIRED The delivery attempt for your Flipkart shipment with Tracking ID NUM was not successful To request reattempt of delivery or to cancel the order please click here URL"
+                    },
+                    {
+                      "addr": "AMAZON",
+                      "body": "Delivered: Your package with KTS Hard Back Cover for Lenovo k6 Note Blue was successfully delivered. More info at http://amzn.in/dJQNA8f",
+                      "date": "03-11-17 20:50",
+                      "expected":"Delivered Your package with KTS Hard Back Cover for Lenovo k6 Note Blue was successfully delivered More info at URL"
+                    },
+                    {
+                      "addr": "AMAZON",
+                      "body": "Arriving early: KTS Hard Back Cover for Lenovo k6 Note Blue will be delivered by AmzAgent(9061020914). http://amzn.in/88sfJ0x",
+                      "date": "03-11-17 20:50",
+                      "expected":"Arriving early KTS Hard Back Cover for Lenovo k6 Note Blue will be delivered by AmzAgent NUM URL"
+                    },
+                    {
+                      "addr": "AMAZON",
+                      "body": "Arriving Today: Your package with Roop Sangam Chiffon Saree (Boot94_Pink) will be delivered by AmzAgent(9497307929). http://amzn.in/3iIMY77",
+                      "date": "03-11-17 20:50",
+                      "expected":"Arriving Today Your package with Roop Sangam Chiffon Saree Boot94_Pink will be delivered by AmzAgent NUM URL"
+                    },
+                    {
+                      "addr": "AMAZON",
+                      "body": "Dispatched: Your package with McGraw-Hill Education SAT 2018 (Test Prep) will be delivered on or before 05-Aug. Track at http://amzn.in/6QmFIEj",
+                      "date": "03-11-17 20:50",
+                      "expected":"Dispatched Your package with McGraw Hill Education DATE NUM Test Prep will be delivered on or before DATE Track at URL"
+                    },
+                    {
+                      "addr": "AMAZON",
+                      "body": "On the way: Your Amazon package with Twist Women's Multicolor Floral Printed Party Wea... is on time and will reach you by 22-Jul. Track at www.amazon.in/orders",
+                      "date": "03-11-17 20:50",
+                      "expected":"On the way Your Amazon package with Twist Women's Multicolor Floral Printed Party Wea is on time and will reach you by DATE Track at URL"
+                    },
+                    {
+                      "addr": "AMAZON",
+                      "body": "Your order for The Gud Look Women's Poly Chiff... has been successfully placed. It will be delivered by 22-Jul. Thank you for shopping at Amazon.",
+                      "date": "03-11-17 20:50",
+                      "expected":"Your order for The Gud Look Women's Poly Chiff has been successfully placed It will be delivered by DATE Thank you for shopping at Amazon"
+                    },
+                    {
+                      "addr": "FLPKRT",
+                      "date": "26-10-2017 23:57",
+                      "body": "Pickup reminder: Your return pick up for Origlow Best Quality Light... is scheduled for tomorrow, May 29, between 10AM-1PM. http://amzn.in/orders",
+                      "expected":"Pickup reminder Your return pick up for Origlow Best Quality Light is scheduled for tomorrow DATE between TIME TIME URL"
+                    },
+                    {
+                      "addr": "FLPKRT",
+                      "date": "26-10-2017 23:57",
+                      "body": "Pickup Rescheduled: Your Return pickup for Origlow Best Quality Light Weight Laptop Sleeve ... has been rescheduled. Details: http://amzn.in/6MxWhJ",
+                      "expected":"Pickup Rescheduled Your Return pickup for Origlow Best Quality Light Weight Laptop Sleeve has been rescheduled Details URL"
+                    },
+                    {
+                      "addr": "FLPKRT",
+                      "date": "26-10-2017 23:57",
+                      "body": "Cancelled: Our courier partner has confirmed that the delivery of Crease & Clips Casual ... with order ID OD108564944298452000 was not accepted. As requested, the above item(s) in your order has(have) been cancelled. Please check your email for more details.",
+                      "expected":"Cancelled Our courier partner has confirmed that the delivery of Crease & Clips Casual with order IDVAL OD108564944298452000 was not accepted As requested the above item s in your order has have been cancelled Please check your email for more details"
+                    },
+                    {
+                      "addr": "FLPKRT",
+                      "date": "26-10-2017 23:57",
+                      "body": "Order Rejected: Crease Clips Casual D... with tracking ID FMPC0185303696 will be returned to seller since the product was not accepted during delivery. Contact flipkart.com CS for further assistance. Click to give feedback: http://ekrt.in/2lIKx!NNNN",
+                      "expected":"Order Rejected Crease Clips Casual D with tracking ID IDVAL will be returned to seller since the product was not accepted during delivery Contact flipkart com CS for further assistance Click to give feedback URL"
+                    },
+                    {
+                      "addr": "FLPKRT",
+                      "date": "26-10-2017 23:57",
+                      "body": "Order Placed: Your order for Aashirvaad Superior MP...+11 more products with order ID OD111312171233544000 amounting to Rs.1116 has been received. Your Flipkart Supermart item(s) will be delivered on Fri, Jan 19, 2018 between 5:00 PM and 7:30 PM.  Manage your order here http://fkrt.it/ocxkILuuuN",
+                      "expected":"Order Placed Your order for Aashirvaad Superior MP NUM more products with order IDVAL OD111312171233544000 amounting to AMT has been received Your Flipkart Supermart item s will be delivered on DATE between TIME and TIME Manage your order here URL"
+                    },
+                    {
+                      "date": "26-10-2017 23:57",
+                      "body":  "Return Request Accepted: Your return request for ELV Uni... from your order with order ID OD220851255752636000 has been accepted by the seller. A Wishmaster will pick up the originally delivered item by Monday, Feb 08, 2021. The refund will be initiated within 1 business day of the pick up. Please keep the item in the product box along with accessories & tags ready for pickup. Please check your email for important details to ensure a successful pickup.",
+                      "addr": "FLPKRT",
+                      "expected":"Return Request Accepted Your return request for ELV Uni from your order with order IDVAL OD220851255752636000 has been accepted by the seller A Wishmaster will pick up the originally delivered item by DATE The refund will be initiated within NUM business day of the pick up Please keep the item in the product box along with accessories & tags ready for pickup Please check your email for important details to ensure a successful pickup"
+                    },
+                    {
+                      "date": "26-10-2017 23:57",
+                      "body": "Article No:EL471478934IN has been Delivered by MEGHANATHANS (Beat No:B6) on19/01/2021 13:41:54.",
+                      "addr": "AIRTEL",
+                      "expected":"Article No IDVAL has been Delivered by MEGHANATHANS Beat No IDVAL on19\/01\/2021 TIME"
+                    },
+                    {
+                      "date": "26-10-2017 23:57",
+                      "body": "Delhivery: Your shipment (SHOES..) has been delivered. Please rate us on: https://cfb.delhivery.com/?tid=N5mp7el\n",
+                      "addr": "AIRTEL",
+                      "expected":"Delhivery Your shipment SHOES has been delivered Please rate us on URL"
+                    },
+                    {
+                      "date": "26-10-2017 23:57",
+                      "body": "Delivered: Lenskart order 1224225630 with John Jacobs Eyeglasses is delivered. Track at www.google.com\n",
+                      "addr": "ICICIB",
+                      "expected":"Delivered Lenskart order NUM with John Jacobs Eyeglasses is delivered Track at www google com"
+                    }
+  ]
+}
