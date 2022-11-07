@@ -12,6 +12,7 @@ struct TestInputForClassifier {
     let date: String
     let message: String
     let addr: String
+    let expected: String
 }
 
 extension Date {
@@ -49,12 +50,32 @@ final class YugaTests: XCTestCase {
         do {
             let testcases = try readTestInputDataForClassifier()
             for testcase in testcases {
-                c.getYugaTokens(testcase.message, configMap, IndexTrack(next: 0))
+                let p = c.getYugaTokens(testcase.message, configMap, IndexTrack(next: 0))
+                print("message : " + p.getA())
+                print("METADATA : ")
+                print(p.getB())
             }
         } catch {
             XCTFail("Test failed with exception")
         }
     }
+    
+    func testYugaClassifierEndToEnd() {
+        let c = Classifier()
+        var configMap = Dictionary<String, String>()
+        configMap[Constants.YUGA_CONF_DATE] = Constants.dateTimeFormatter().string(from: Date(milliseconds: 1527811200000))
+        configMap[Constants.YUGA_SOURCE_CONTEXT] = Constants.YUGA_SC_ON
+        do {
+          let testcases = try readTestInputDataForClassifier()
+          for testcase in testcases {
+            let result = c.getYugaTokens(testcase.message, configMap, IndexTrack(next: 0))
+            let output = result.getA()
+            XCTAssertEqual(output, testcase.expected)
+          }
+        } catch {
+          XCTFail("Test failed with exception")
+        }
+      }
     
     func testYugaEndToEnd() {
         let y: Yuga = Yuga()
@@ -107,7 +128,7 @@ final class YugaTests: XCTestCase {
     
     func readTestInputDataForClassifier() throws -> [TestInputForClassifier] {
         var testcaseList = [TestInputForClassifier]()
-        let url = Bundle.module.url(forResource: "classifier_tests", withExtension: "json")!
+        let url = Bundle.module.url(forResource: "current", withExtension: "json")!
         let data = try! Data(contentsOf: url)
         do {
             let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as? Dictionary<String, AnyObject>
@@ -116,8 +137,9 @@ final class YugaTests: XCTestCase {
                 let date = testcase["date"] as! String
                 let message = testcase["body"] as! String
                 let addr = testcase["addr"] as! String
+                let expected = testcase["expected"] as! String
                 testcaseList.append(
-                    TestInputForClassifier(date: date, message: message, addr: addr)
+                    TestInputForClassifier(date: date, message: message, addr: addr, expected: expected)
                 )
             }
             return testcaseList

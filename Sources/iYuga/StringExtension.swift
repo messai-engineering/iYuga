@@ -68,5 +68,9 @@ subscript(offset: Int) -> Character {
             return []
         }
     }
+    
+    func trim() -> String {
+        return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+    }
 }
 
