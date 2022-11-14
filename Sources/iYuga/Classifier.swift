@@ -1,3 +1,13 @@
+import XCTest
+extension Date {
+    var millisecondsSince1970:Int64 {
+        Int64((self.timeIntervalSince1970 * 1000.0).rounded())
+    }
+    
+    init(milliseconds:Int64) {
+        self = Date(timeIntervalSince1970: TimeInterval(milliseconds) / 1000)
+    }
+}
 public class Classifier {
     
     let prefixTrie: Trie = Trie()
@@ -8,6 +18,11 @@ public class Classifier {
         upiTrie.insertUpis()
     }()
     
+    public func getYugaTokens(_ sentence: String) -> Pair<String, Dictionary<String, AnyObject>> {
+        var configMap = Dictionary<String, String>()
+        configMap[Constants.YUGA_CONF_DATE] = Constants.dateTimeFormatter().string(from: Date(milliseconds: 1527811200000))
+        return getYugaTokens(sentence, configMap, IndexTrack(next: 0))
+    }
     public func getYugaTokens(_ sentence: String, _ configMap: Dictionary<String, String>, _ indexTrack: IndexTrack) -> Pair<String, Dictionary<String, AnyObject>> {
         
         _ = initTrie
@@ -237,7 +252,7 @@ public class Classifier {
                 }
             }
         }
-        if let p = checkForUrl(sentence) {
+        if let p = checkForUrl(sentence + " ") {
             start = indexTrack.next
             setNextIndex(p.getA(), indexTrack)
             return Pair("URL", start)
@@ -321,9 +336,10 @@ public class Classifier {
     }
     
     private func lookAheadInteger(_ sentence: String) -> Int {
-        let index = 0
         var c: Character
+        var idx: Int = 0
         for index in 0...sentence.length() - 1 {
+            idx = index
             c = sentence.charAt(index)
             if c == " " || c == "." || c == ":" || c == "-" || c == "," {
                 continue
@@ -333,7 +349,7 @@ public class Classifier {
                 return -1
             }
         }
-        return index
+        return idx
     }
     
     private func lookAheadDotForUpi(_ sentence: String) -> Int {

@@ -1,9 +1,9 @@
 {
-  "data": [{
-      "date": "2/18/2018 21:43",
-      "addr": "AXISBK",
-      "body": "Dear Customer, Your ICICI Bank Account XXXX1305 has been debited with INR14,000.00   on 03 May Info: MUKESH, cheque 101629. Total Avbl. Bal is INR19,540.53",
-      "expected": "Dear Customer Your ICICI Bank Account INSTRNO has been debited with AMT on DATE Info MUKESH cheque NUM Total Avbl Bal is AMT"
+  "data": [  {
+      "addr": "INDIGO",
+      "body": "Your A/c no xx1234 is credited with Rs 3000 on 11/11/20 Ref no 8379294 Current A/c Bal Rs 12000",
+      "date": "21-10-17 07:22",
+      "expected":"Dear Mr Martin Your IndiGo PNR is IDVAL FLTIDVAL DATE COKHYD TIMES Web check in now by clicking here URL"
   }
   ]
 }
