@@ -1469,7 +1469,7 @@ public class Yuga {
                     pTime = utilCheckTypes(getRoot(), "FSA_TZ", sub)
                     let j : Int = skipForTZ(str.substring(inside + pTime!.getA() + 1), map);
                     i = inside + pTime!.getA() + 1 + j;
-                } else if (sub.lowercased().startsWith("pm") || sub.lowercased().startsWith("am")) {
+                } else if (sub.lowercased().hasPrefix("pm") || sub.lowercased().hasPrefix("am")) {
                     //todo handle appropriately for pm
                     if((sub.length()>=3 && isDelimiter(sub.charAt(2))) || (sub.length() == 2) ) {
                         // second if condition added to move index to pm in case like : 11/01/2021:10:09:47PM

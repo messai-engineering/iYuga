@@ -44,13 +44,10 @@ final class YugaTests: XCTestCase {
     
     func testYugaClassifier() {
         let c = Classifier()
-        var configMap = Dictionary<String, String>()
-        configMap[Constants.YUGA_CONF_DATE] = Constants.dateTimeFormatter().string(from: Date(milliseconds: 1527811200000))
-        configMap[Constants.YUGA_SOURCE_CONTEXT] = Constants.YUGA_SC_ON
         do {
             let testcases = try readTestInputDataForClassifier()
             for testcase in testcases {
-                let p = c.getYugaTokens(testcase.message, configMap, IndexTrack(next: 0))
+                let p = c.getYugaTokens(testcase.message)
                 print("message : " + p.getA())
                 print("METADATA : ")
                 print(p.getB())
@@ -62,13 +59,10 @@ final class YugaTests: XCTestCase {
     
     func testYugaClassifierEndToEnd() {
         let c = Classifier()
-        var configMap = Dictionary<String, String>()
-        configMap[Constants.YUGA_CONF_DATE] = Constants.dateTimeFormatter().string(from: Date(milliseconds: 1527811200000))
-        configMap[Constants.YUGA_SOURCE_CONTEXT] = Constants.YUGA_SC_ON
         do {
           let testcases = try readTestInputDataForClassifier()
           for testcase in testcases {
-            let result = c.getYugaTokens(testcase.message, configMap, IndexTrack(next: 0))
+            let result = c.getYugaTokens(testcase.message)
             let output = result.getA()
             XCTAssertEqual(output, testcase.expected)
           }
