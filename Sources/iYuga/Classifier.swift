@@ -18,6 +18,8 @@ public class Classifier {
         upiTrie.insertUpis()
     }()
     
+    public init() {}
+    
     public func getYugaTokens(_ sentence: String) -> Pair<String, Dictionary<String, AnyObject>> {
         var configMap = Dictionary<String, String>()
         configMap[Constants.YUGA_CONF_DATE] = Constants.dateTimeFormatter().string(from: Date(milliseconds: 1527811200000))
