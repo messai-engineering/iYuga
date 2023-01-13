@@ -1,9 +1,0 @@
-{
-  "data": [  {
-      "addr": "INDIGO",
-      "body": "Your A/c no xx1234 is credited with Rs 3000 on 11/11/20 Ref no 8379294 Current A/c Bal Rs 12000",
-      "date": "21-10-17 07:22",
-      "expected":"Dear Mr Martin Your IndiGo PNR is IDVAL FLTIDVAL DATE COKHYD TIMES Web check in now by clicking here URL"
-  }
-  ]
-}

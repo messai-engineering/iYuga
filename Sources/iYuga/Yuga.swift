@@ -37,6 +37,7 @@ public class Yuga {
         root.next["FSA_TZ"] = GenTrie();
         root.next["FSA_DAYSFFX"] = GenTrie();
         root.next["FSA_UPI"] = GenTrie();
+        root.next["FSA_DAYRANGE"] = GenTrie();
         
         seeding(type: Constants.FSA_MONTHS, root: root.next["FSA_MONTHS"]!);
         seeding(type: Constants.FSA_DAYS, root: root.next["FSA_DAYS"]!);
@@ -46,6 +47,7 @@ public class Yuga {
         seeding(type: Constants.FSA_TZ, root: root.next["FSA_TZ"]!);
         seeding(type: Constants.FSA_DAYSFFX, root: root.next["FSA_DAYSFFX"]!);
         seeding(type: Constants.FSA_UPI, root: root.next["FSA_UPI"]!);
+        seeding(type: Constants.FSA_DAYRANGE, root: root.next["FSA_DAYRANGE"]!);
     }
 
     private func seeding(type : String, root : GenTrie) {
@@ -317,6 +319,30 @@ public class Yuga {
     private func isInstrNumStart(_ c : Character) -> Bool {
         return (c.asciiValue == 42 || c.asciiValue == 88 || c.asciiValue == 120); //*xX
     }
+    
+    func setIfNumRange(str: String, i: Int, map: FsaContextMap) {
+        var trimmed: String = str.substring(0, i).trim()
+        if(isDelimiter(trimmed.charAt(trimmed.length()-1))) {
+            trimmed = trimmed.substring(0,trimmed.length()-1)
+        }
+        if(checkForNumRange(val: trimmed) && !(map.getType() == Constants.TY_TMS)) {
+            let parts = trimmed.components(separatedBy: "-")
+            map.setVal(name: "from_num", val: parts[0])
+            map.setVal(name: "to_num", val: parts[1])
+            map.setType(type: Constants.TY_NUMRANGE);
+        }
+    }
+
+    func handleTYTMS(map: FsaContextMap, v: String?) -> Bool {
+        if (v != nil && v!.length() == 8 && isHour(v!.charAt(0), v!.charAt(1)) && isHour(v!.charAt(4), v!.charAt(5))) {
+            var valMap = map.getValMap()
+            extractTime(v!.substring(0, 4), &valMap, "from");
+            extractTime(v!.substring(4, 8), &valMap, "to");
+            return true;
+        } else {
+            return false
+        }
+    }
 
     private func extractTime(_ str : String, _ valMap : inout Dictionary<String, String>, _ prefix: String...) {
         var pre : String = "";
@@ -574,8 +600,10 @@ public class Yuga {
                         }
                     } else if (c == "p" && (i + 1) < str.length() && str.charAt(i + 1) == "m") {
                         let hh : Int = Int(map.get(Constants.DT_HH)!)!;
-                        if (hh != 12) {
+                        if (hh < 12) {
                             map.put(Constants.DT_HH, String(hh + 12));
+                        } else if (hh > 12) {
+                            map.put(Constants.DT_HH, String(hh))
                         }
                         i = i + 1;
                     } else if (utilCheckTypes(getRoot(), "FSA_TIMES", str.substring(i)) != nil) {
@@ -673,6 +701,9 @@ public class Yuga {
                         // case like "729 613 is your Instagram code" Where the num was captured as AMT.
                         if(i > 2 && str.charAt(i-1).asciiValue == Constants.CH_SPACE && str.charAt(i-2).isNumber) {
                             map.append(c);
+                            if (map.contains("NUM")) {
+                                counter = (map.get("NUM")!.length())
+                            }
                             state=15;
                         } else {
                             map.setType(Constants.TY_AMT, Constants.TY_AMT);
@@ -714,7 +745,7 @@ public class Yuga {
                         }  else {
                             i = i - 1;
                         }
-                        if(comma_count > 1 && (map.getType() == Constants.TY_AMT)) {
+                        if (comma_count > 1 && (map.getType() == Constants.TY_AMT)) {
                             map.setType(Constants.TY_NUM, Constants.TY_NUM);
                         }
                         state = -1;
@@ -796,7 +827,7 @@ public class Yuga {
                         state = 11;
                     }
                     // Condition changed to seperate two mob nums seperated by space "8289957757 9388566777"
-                else if (c.asciiValue == Constants.CH_SPACE && counter < 10 && (i + 2) < str.length() && str.charAt(i + 1).isNumber && str.charAt(i + 2).isNumber) {
+                else if (c.asciiValue == Constants.CH_SPACE && (counter >= 5 && counter < 10) && !configContextIsCURR(config) && (i + 2) < str.length() && str.charAt(i + 1).isNumber && str.charAt(i + 2).isNumber) {
                         state = 41;
                     }
 
@@ -913,19 +944,6 @@ public class Yuga {
                         state=19;
                     }
                     else {
-                        let day : Bool = (nextSpace(str.substring(i)) >= 3) && str.substring(with: i..<i+3) == "day" ;
-                        let working : Bool = (nextSpace(str.substring(i)) >= 4) && str.substring(with: i..<i+4) == "work";
-                        let business : Bool = (nextSpace(str.substring(i)) >= 8) && str.substring(with: i..<i+8) == "business";
-                        // 1-2 Days, 3-4 working days, 2-3 business days
-                        if(c.isLetter && (day || working || business) ){
-                            let laterDay : String = map.get("MM")!;
-                            map = FsaContextMap();
-                            map.setType(Constants.TY_NUM, Constants.TY_NUM);
-                            map.put(Constants.TY_NUM,laterDay);
-                            i = i-2;
-                            state = -1;
-                            break;
-                        }
                         i = i - 2;
                         state = -1;
                     }
@@ -1000,6 +1018,12 @@ public class Yuga {
                         map.setType(Constants.TY_DTE, Constants.DT_YYYY);
                         map.put(Constants.DT_MM, c);
                         state = 26;
+                    } else if (utilCheckTypes(getRoot(), "FSA_MONTHS", str.substring(i)) != nil) {
+                        if (map.getType() == "NUM" && map.get(map.getType()!)!.length() == 4) {
+                            map.put(Constants.DT_YYYY, map.get("NUM")!)
+                            map.remove("NUM")
+                            map.setType(type: Constants.TY_DTE)
+                        }
                     } else if (i > 0 && utilCheckTypes(getRoot(), "FSA_TIMES", str.substring(i)) != nil) {
                         p = utilCheckTypes(getRoot(), "FSA_TIMES", str.substring(i))
                         if (p != nil) {
@@ -1037,7 +1061,8 @@ public class Yuga {
                             map.setType(Constants.TY_NUM, Constants.TY_NUM);
                         }
                         map.append(c);
-                        if ((delimiterStack.pop().asciiValue == Constants.CH_SLSH || delimiterStack.pop().asciiValue == Constants.CH_HYPH) && i + 1 < str.length() && str.charAt(i + 1).isNumber && (i + 2 == str.length() || isDelimiter(str.charAt(i + 2)) || str.charAt(i + 2) == "/" )) {//flight time 0820/0950
+                        let checkIfPossTimeRange : Bool = checkForTimeRange(val: map.get("NUM"))
+                        if ((delimiterStack.pop().asciiValue == Constants.CH_SLSH || delimiterStack.pop().asciiValue == Constants.CH_HYPH) && i + 1 < str.length() && str.charAt(i + 1).isNumber && (i + 2 == str.length() || isDelimiter(str.charAt(i + 2)) || str.charAt(i + 2) == "/" && checkIfPossTimeRange )) {//flight time 0820/0950
                             map.setType(Constants.TY_TMS, Constants.TY_TMS);
                             map.append(str.charAt(i + 1));
                             i = i + 1;
@@ -1113,7 +1138,7 @@ public class Yuga {
                             i += p!.getA();
                             state = 24;
                         }
-                    } else if (c.asciiValue == Constants.CH_COMA || c.asciiValue == Constants.CH_SPACE) {
+                    } else if (c.asciiValue == Constants.CH_COMA || c.asciiValue == Constants.CH_SPACE || c.asciiValue == Constants.CH_NLINE) {
                         state = 32;
                     } else if ((utilCheckTypes(getRoot(), "FSA_DAYSFFX", str.substring(i))) != nil) {
                         p = utilCheckTypes(getRoot(), "FSA_DAYSFFX", str.substring(i))
@@ -1384,7 +1409,7 @@ public class Yuga {
                 }
             }
         }
-
+        setIfNumRange(str: str, i: i, map: map)
         if ((map.getType() == Constants.TY_NUM)) {
             // Added last char is not space check that prevents "num" becoming a "str". Ex: "+919057235089 pin"
             if (
@@ -1471,20 +1496,107 @@ public class Yuga {
                     i = inside + pTime!.getA() + 1 + j;
                 } else if (sub.lowercased().hasPrefix("pm") || sub.lowercased().hasPrefix("am")) {
                     //todo handle appropriately for pm
-                    if((sub.length()>=3 && isDelimiter(sub.charAt(2))) || (sub.length() == 2) ) {
+                    if((sub.length()>=3 && isDelimiter(sub.charAt(2))) || (meridienTimeAhead(sub,0))) {
                         // second if condition added to move index to pm in case like : 11/01/2021:10:09:47PM
                         i = inside + 2;
                     }
                 }
             }
-        } else if ((map.getType() == Constants.TY_TMS)) {
-            let v = map.get(map.getType()!);
-            if (v != nil && v!.length() == 8 && isHour(v!.charAt(0), v!.charAt(1)) && isHour(v!.charAt(4), v!.charAt(5))) {
-                extractTime(v!.substring(with: 0..<4), &map.valMap, "dept");
-                extractTime(v!.substring(with: 0..<8), &map.valMap, "arrv");
+        } else if((map.getType() == Constants.TY_TMS)) {
+            handleTYTMS(map: map,v: map.get(map.getType()!))
+        } else if(map.getType() == (Constants.TY_NUMRANGE)) {
+            let inside: Int = i + skip(str: str.substring(i))
+            var dt: Date?
+            let fromNum: String = map.getVal(name: "from_num")!
+            let toNum: String = map.getVal(name: "to_num")!
+            if(config[Constants.YUGA_CONF_DATE] != nil) {
+                dt = getDateObject(dateStr: config[Constants.YUGA_CONF_DATE]!)
+            }
+            if(inside < str.length() && dt != nil) {
+                var pRange: Pair<Int, String>
+                let sub: String = str.substring(inside)
+                if(utilCheckTypes(getRoot(), "FSA_TIMES", sub) != nil) {
+                    pRange = utilCheckTypes(getRoot(), "FSA_TIMES", sub)!
+                    i = inside + pRange.getA() + 1;
+                    if(handleTYTMS(map: map,v: fromNum+toNum)){
+                        map.setType(type: Constants.TY_TMS);
+                        map.valMap.removeValue(forKey: "from_num")
+                        map.valMap.removeValue(forKey: "to_num")
+                    } else {
+                        map.setType(type: Constants.TY_TMERANGE);
+                        if(sub.charAt(0)=="h") {
+                            map.setVal(name: "time_type",val: "hour");
+                        }
+                        else {
+                            map.setVal(name: "time_type",val: "min");
+                        }
+                    }
+                } else if(utilCheckTypes(getRoot(), "FSA_DAYRANGE", sub) != nil) {
+                    pRange = utilCheckTypes(getRoot(), "FSA_DAYRANGE", sub)!
+                    i = inside + pRange.getA() + 1;
+                    map.setType(type: Constants.TY_DTERANGE);
+                    map.setVal(name: "from_date", val: addDaysToDate(date: dt!, days: parseStrToInt(text: fromNum)!))
+                    map.setVal(name: "to_date", val: addDaysToDate(date: dt!, days: parseStrToInt(text: toNum)!))
+                    map.setVal(name: "time_type",val: "day");
+                    map.valMap.removeValue(forKey: "from_num")
+                    map.valMap.removeValue(forKey: "to_num")
+                } else if(utilCheckTypes(getRoot(), "FSA_MONTHS", sub) != nil) {
+                    pRange = utilCheckTypes(getRoot(), "FSA_MONTHS", sub)!
+                    i = inside + pRange.getA()+1;
+                    map.setType(type: Constants.TY_DTERANGE);
+                    map.setVal(name: "from_date",val: getYugaResponseOutput(fromNum+" "+pRange.getB(),config,false));
+                    map.setVal(name: "to_date",val: getYugaResponseOutput(toNum+" "+pRange.getB(),config,false));
+                    map.setVal(name: "time_type",val: "month");
+                    map.valMap.removeValue(forKey: "from_num")
+                    map.valMap.removeValue(forKey: "to_num")
+                } else if (meridienTimeAhead(sub,0)) {
+                    let meridien: String = str.charAt(i)=="a" ? "am" : "pm"
+                    i = inside + 2;
+                    map.setVal(name: "from_time",val: getYugaResponseOutput(fromNum+" "+meridien,config,true))
+                    map.setVal(name: "to_time",val: getYugaResponseOutput(toNum+" "+meridien,config,true))
+                    map.valMap.removeValue(forKey: "from_num")
+                    map.valMap.removeValue(forKey: "to_num")
+                    map.setType(type: Constants.TY_TMS);
+                } else if(sub.length()>3 && (sub.charAt(0)=="-" || sub.charAt(0)=="x")){
+                    let del: Int = nextSpace(sub);
+                    if(sub.substring(1).isNumber()){
+                        map.append(sub);
+                        map.setType(Constants.TY_NUM, Constants.TY_NUM);
+                    }
+                    else{
+                        map.append(sub.substring(0,del));
+                        map.setType(Constants.TY_STR, Constants.TY_STR);
+                    }
+                    map.valMap.removeValue(forKey: "from_num")
+                    map.valMap.removeValue(forKey: "to_num")
+                    i = i+del;
+                }
+            }
+            //post-processing
+            if((config["Constants.YUGA_SOURCE_CONTEXT"] != nil && config[Constants.YUGA_SOURCE_CONTEXT] == (Constants.YUGA_SC_TMERANGE)) && (fromNum.length()==2 && toNum.length()==2)){
+                map.valMap["from_time"] = addTimeStampSuffix(fromNum)
+                map.valMap["to_time"] = addTimeStampSuffix(toNum)
+                map.valMap.removeValue(forKey: "from_num")
+                map.valMap.removeValue(forKey: "to_num")
+                map.setType(type: Constants.TY_TMS);
+            } else if (map.getType() == Constants.TY_NUMRANGE) {
+                map.setType(type: Constants.TY_NUM);
+                map.setVal(name: "num", val: map.valMap.removeValue(forKey: "from_num")! + map.valMap.removeValue(forKey: "to_num")!);
             }
         }
         return Pair<Int, FsaContextMap>(i, map);
+    }
+    
+    func getYugaResponseOutput(_ str: String, _ config: Dictionary<String, String>, _ isTime: Bool) -> String {
+        if let r = getResponse(str: str, config: config) {
+            let valMap = r.getValMap()
+            if(isTime) {
+                return valMap["time"]!
+            } else {
+                return r.getStr()
+            }
+        }
+        return ""
     }
 }
 

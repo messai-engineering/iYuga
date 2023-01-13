@@ -91,6 +91,14 @@ final class YugaTests: XCTestCase {
         }
     }
     
+    func testYuga() {
+        var configMap = Dictionary<String, String>()
+        configMap[Constants.YUGA_CONF_DATE] = Constants.dateTimeFormatter().string(from: Date(milliseconds: 1527811200000))
+        configMap[Constants.YUGA_SOURCE_CONTEXT] = Constants.YUGA_SC_ON;
+        let y: Yuga = Yuga()
+        let r: Response = y.parse(str: "3-4 Feb", config: configMap)!
+    }
+    
     func readTestInputData() throws -> [TestInput] {
         var testcaseList = [TestInput]()
         let url = Bundle.module.url(forResource: "yuga_tests", withExtension: "json")!

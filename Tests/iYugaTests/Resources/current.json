@@ -2055,7 +2055,7 @@
             "body": "Dear Customer, your Account XX8245 has been debited with INR 400.00 on 31-Aug-17. Info: NFS*CASH WDL*31-08-17. The Available Balance is INR 1,45,444.38.",
             "date": "24-10-2017 00:00",
             "addr": "ICICIB",
-            "expected":"Dear Customer your Account INSTRNO has been debited with AMT on DATE Info NFS*CASH WDL*31 08 NUM The Available Balance is AMT"
+            "expected":"Dear Customer your Account INSTRNO has been debited with AMT on DATE Info NFS*CASH WDL*31 NUM The Available Balance is AMT"
         },
         {
             "body": "Dear Customer, Refund of INR 2 from M/S AMAZON INTERNET SERVI has been credited to your Credit Card XX5005 on 27-AUG-17. For details, please call our Customer Care.",
@@ -3663,7 +3663,7 @@
             "date": "26-10-2017 23:57",
             "body": "Rs.1000 Amazon/Flipkart voucher can be yours! To avail, use your Card xx7684 for Rs.7000 between 2-31 Dec. resu.io/VC4RCBAPLUpG T&C|Get voucher by 31-Mar",
             "addr": "HDFCBN",
-            "expected":"AMT Amazon\/Flipkart voucher can be yours To avail use your Card INSTRNO for AMT between 2 DATE URL T&C|Get voucher by DATE"
+            "expected":"AMT Amazon\/Flipkart voucher can be yours To avail use your Card INSTRNO for AMT between DATERANGE URL T&C|Get voucher by DATE"
         },
         {
             "date": "26-10-2017 23:57",
@@ -3747,7 +3747,7 @@
             "date": "26-10-2017 23:57",
             "body": "Dear Customer, your Account XX8245 has been debited with INR 400.00 on 31-Aug-17. Info: NFS*CASH WDL*31-08-17. The Available Balance is INR 1,45,444.38.",
             "addr": "ICICIB",
-            "expected":"Dear Customer your Account INSTRNO has been debited with AMT on DATE Info NFS*CASH WDL*31 08 NUM The Available Balance is AMT"
+            "expected":"Dear Customer your Account INSTRNO has been debited with AMT on DATE Info NFS*CASH WDL*31 NUM The Available Balance is AMT"
         },
         {
             "date": "26-10-2017 23:57",
@@ -4479,7 +4479,7 @@
             "body": "Party begins with KFC Wednesday! Get 12pc chicken @ Rs.300 and save 37%. Order https://goo.gl/HZez1D /Call /T&C. Opt-out https://goo.gl/XYJ9Wf",
             "date": "21-10-17 07:22",
             "addr": "KFCIND",
-            "expected":"Party begins with KFC Wednesday Get 12pc chicken @ AMT and save PCT Order URL \/Call \/T&C Opt out URL"
+            "expected":"Party begins with KFC DATE Get 12pc chicken @ AMT and save PCT Order URL \/Call \/T&C Opt out URL"
         },
         {
             "body": "Epic Sunday Savings with KFC. Save 40%. Triple Treat 14Pc chicken @ Rs499. Order https://goo.gl/amnJxB /Call . T&C. Opt-out https://goo.gl/7FchsE",
@@ -4695,7 +4695,7 @@
             "date": "26-10-2017 23:57",
             "body": "Dear Mohammed,\nBig Bazaar has added 1000 Promo Points worth Rs.250 of FREE SHOPPING in ur PAYBACK Account ending with 9405.\nShop this Festive Season & Redeem Pts on min Rs.1000 bill, 10-15 Jan!\nPromo Points valid till 15 Jan Midnight. TnC @ bit.ly/bbapts01\nTo optout, SMS OPTOUT to 9773597735",
             "addr": "PNBCRC",
-            "expected":"Dear Mohammed Big Bazaar has added NUM Promo Points worth AMT of FREE SHOPPING in ur PAYBACK Account ending with NUM Shop this Festive Season & Redeem Pts on min AMT bill 10 NUM Jan Promo Points valid till DATE Midnight TnC @ URL optout SMS OPTOUT to NUM"
+            "expected":"Dear Mohammed Big Bazaar has added NUM Promo Points worth AMT of FREE SHOPPING in ur PAYBACK Account ending with NUM Shop this Festive Season & Redeem Pts on min AMT bill DATERANGE Promo Points valid till DATE Midnight TnC @ URL optout SMS OPTOUT to NUM"
         },
         {
             "date": "26-10-2017 23:57",
@@ -4809,7 +4809,7 @@
             "addr": "CBSSBI",
             "body": "Hi Anuj Kumar Garg, Amazon's Great Freedom Sale will be on between 6-10 Aug. Shop during the sale using the approved credit of 20000 INR in your Amazon Pay Later account MUZ20E000252901 (powered by axio) and pay for your purchases next month.  You could also avail EMI plans of up to 12 months for your purchases. Happy shopping! Team axio (CapFloat Financial Services Pvt Ltd)",
             "date": "2017-10-10 11:47:40",
-            "expected":"Hi Anuj Kumar Garg Amazon's Great Freedom Sale will be on between DATE Shop during the sale using the approved credit of NUM INR in your Amazon Pay Later account INSTRNO powered by axio and pay for your purchases next month You could also avail EMI plans of up to NUM months for your purchases Happy shopping Team axio CapFloat Financial Services Pvt Ltd"
+            "expected":"Hi Anuj Kumar Garg Amazon's Great Freedom Sale will be on between DATERANGE Shop during the sale using the approved credit of NUM INR in your Amazon Pay Later account INSTRNO powered by axio and pay for your purchases next month You could also avail EMI plans of up to NUM months for your purchases Happy shopping Team axio CapFloat Financial Services Pvt Ltd"
         },
         {
             "date": "26-10-2017 23:57",
@@ -5235,7 +5235,7 @@
             "date": "26-10-2017 23:57",
             "body": "E-stmt for your SBI Card ending with XX71 dated 05/01/2021 has been sent to your registered email ID. Total Amt Due: Rs 2324, Min Amt Due: Rs 200 is payable by 25/01/2021. SMS ENRS to 5676791 if not received within 24-48 hrs. Click https://sbicard.com/quickpaynet to pay your SBI Credit Card bill.",
             "addr": "SBICRD",
-            "expected":"E stmt for your SBI Card ending with INSTRNO dated DATE has been sent to your registered email ID Total Amt Due AMT Min Amt Due AMT is payable by DATE SMS ENRS to NUM if not received within 24 TIME Click URL to pay your SBI Credit Card bill"
+            "expected":"E stmt for your SBI Card ending with INSTRNO dated DATE has been sent to your registered email ID Total Amt Due AMT Min Amt Due AMT is payable by DATE SMS ENRS to NUM if not received within TIMERANGE Click URL to pay your SBI Credit Card bill"
         },
         {
             "date": "26-10-2017 23:57",
@@ -5373,7 +5373,7 @@
             "addr": "IRCTCi",
             "body": "PNR 4549840734 ticket cancelled, Amt 745 will be refunded in your a/c with in 3-4 days. Please check your account/instrument from which this tkt was booked.",
             "date": "21-10-17 07:22",
-            "expected":"PNR NUM ticket cancelled AMT will be refunded in your a\/c with in NUM days Please check your account\/instrument from which this tkt was booked"
+            "expected":"PNR NUM ticket cancelled AMT will be refunded in your a\/c with in DATERANGE Please check your account\/instrument from which this tkt was booked"
         },
         {
             "addr": "IRCTCi",

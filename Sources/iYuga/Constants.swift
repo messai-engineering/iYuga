@@ -13,6 +13,9 @@ public class Constants {
     public static  var DT_ss : String = "ss";
 
     public static  var TY_NUM : String = "NUM";
+    public static  var TY_NUMRANGE : String = "NUMRANGE";
+    public static  var TY_TMERANGE : String = "TIMERANGE";
+    public static  var TY_DTERANGE : String = "DATERANGE";
     public static  var TY_AMT : String = "AMT";
     public static  var TY_PCT : String = "PCT";
     public static  var TY_DST : String = "DST";
@@ -33,6 +36,7 @@ public class Constants {
 
     public static  var FSA_MONTHS : String = "jan;uary,feb;r;uary,mar;ch,apr;il,may,jun;e,jul;y,aug;ust,sep;t;ember,oct;ober,nov;ember,dec;ember";
     public static  var FSA_DAYS : String = "sun;day,mon;day,tue;sday,wed;nesday,thu;rsday,thur;sday,fri;day,sat;urday";
+    public static  var FSA_DAYRANGE : String = "day;s,work days,working days,business days";
     public static  var FSA_TIMEPRFX : String = "at,on,before,by";
     public static  var FSA_AMT : String = "lac,lakh,k";
     public static  var FSA_TIMES : String = "hours,hrs,hr,mins,minutes";
@@ -88,6 +92,7 @@ public class Constants {
     public static  var YUGA_CONF_DATE : String = "YUGA_CONF_DATE";
     public static  var YUGA_SOURCE_CONTEXT : String = "YUGA_SOURCE_CONTEXT";
     public static  var YUGA_SC_CURR : String = "YUGA_SC_CURR";
+    public static  var YUGA_SC_TMERANGE : String = "YUGA_SC_TMERANGE";
     public static  var YUGA_SC_ON : String = "YUGA_SC_ON";
     public static  var YUGA_SC_TRANSID : String = "YUGA_SC_TRANSID";
     private static  var DATE_TIME_FORMAT_STR : String = "yyyy-MM-dd HH:mm:ss";
@@ -147,13 +152,13 @@ public class Constants {
 
     private class func mapDays() -> Dictionary<Set<String>,String>{
         // Add days in non-english language to these String arrays for support
-        let mond : Set = ["måndag"];
-        let tues : Set = ["tisdag"];
+        let mond : Set = ["måndag","må"];
+        let tues : Set = ["tisdag","ti"];
         let wedn : Set = ["onsdag"];
         let thur : Set = ["torsdag"];
-        let frid : Set = ["fredag"];
-        let satu : Set = ["lördag"];
-        let sund : Set = ["söndag"];
+        let frid : Set = ["fredag","fr"];
+        let satu : Set = ["lördag","lö"];
+        let sund : Set = ["söndag","sö"];
 
         var days : Dictionary<Set<String>,String> = Dictionary();
         days[mond] = "monday";
