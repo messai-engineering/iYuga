@@ -351,8 +351,10 @@ public class Yuga {
         }
         let pattern = "([0-9]{2})([0-9]{2})?([0-9]{2})?"
         let m = str.groups(for: pattern)
-        let value = m[0] + ((m.count > 1) ? (":" + m[2]) : ":00")
-        valMap[pre + "time"] = value
+        if (m.count > 0) {
+            let value = m[0] + ((m.count > 1) ? (":" + m[2]) : ":00")
+            valMap[pre + "time"] = value
+        }
     }
 
     private func lookAheadForInstr(_ str : String, _ index : Int) -> Int {
