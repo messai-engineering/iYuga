@@ -23,7 +23,7 @@ public class Classifier {
     public func getYugaTokens(_ message: String) -> Pair<String, Dictionary<String, AnyObject>> {
         var configMap = Dictionary<String, String>()
         configMap[Constants.YUGA_CONF_DATE] = Constants.dateTimeFormatter().string(from: Date(milliseconds: 1527811200000))
-        return getYugaTokens(message + " ", configMap, IndexTrack(next: 0))
+        return getYugaTokens(message, configMap, IndexTrack(next: 0))
     }
     public func getYugaTokens(_ message: String, _ configMap: Dictionary<String, String>, _ indexTrack: IndexTrack) -> Pair<String, Dictionary<String, AnyObject>> {
         
