@@ -20,14 +20,15 @@ public class Classifier {
     
     public init() {}
     
-    public func getYugaTokens(_ sentence: String) -> Pair<String, Dictionary<String, AnyObject>> {
+    public func getYugaTokens(_ message: String) -> Pair<String, Dictionary<String, AnyObject>> {
         var configMap = Dictionary<String, String>()
         configMap[Constants.YUGA_CONF_DATE] = Constants.dateTimeFormatter().string(from: Date(milliseconds: 1527811200000))
-        return getYugaTokens(sentence, configMap, IndexTrack(next: 0))
+        return getYugaTokens(message, configMap, IndexTrack(next: 0))
     }
-    public func getYugaTokens(_ sentence: String, _ configMap: Dictionary<String, String>, _ indexTrack: IndexTrack) -> Pair<String, Dictionary<String, AnyObject>> {
+    public func getYugaTokens(_ message: String, _ configMap: Dictionary<String, String>, _ indexTrack: IndexTrack) -> Pair<String, Dictionary<String, AnyObject>> {
         
         _ = initTrie
+        let sentence = message + " "
         var prevToken: Pair<Int, String> = Pair(0, "")
         let unmaskTokenSet = Constants.unmaskTokenSet
         var tokenCount: Dictionary<String, Int> = Dictionary()
@@ -282,7 +283,7 @@ public class Classifier {
         var flag: Bool = false
         for index in 0...sentence.length() - 1 {
             c = sentence.charAt(index)
-            if c == " " || c == ":" || c == "<" || c == "?" || c == "|" {
+            if flag != true && (c == " " || c == ":" || c == "<" || c == "?" || c == "|") {
                 continue
             } else if c == "." && index == sentence.length() - 1 {
                 return Pair(index, flag)

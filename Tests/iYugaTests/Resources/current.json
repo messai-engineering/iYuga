@@ -633,7 +633,7 @@
             "date": "2/18/2018 21:43",
             "addr": "AXISBK",
             "body": "KINDLY REMIT RS.354 URGENTLY AS YOUR LOAN A/C 18823 IS OVERDUE BY RS.354.CONTACT ON COLLECTIONS_MUMBAI@IDBI.CO.IN",
-            "expected": "KINDLY REMIT AMT URGENTLY AS YOUR LOAN A\/C NUM IS OVERDUE BY AMT CONTACT ON EMAILADDRESS N"
+            "expected": "KINDLY REMIT AMT URGENTLY AS YOUR LOAN A\/C NUM IS OVERDUE BY AMT CONTACT ON EMAILADDRESS"
         },
         {
             "date": "2/18/2018 21:43",
@@ -675,7 +675,7 @@
             "date": "2/18/2018 21:43",
             "addr": "AXISBK",
             "body": "Your curr loan EMI RS.16600 for KSD00914D due on 21Mar2018. Pls pay or ensure suff bal on presentation. Ignore if paid already. For Queries call 08026673596     mail us in reach4loan@indusind.com",
-            "expected": "Your curr loan EMI AMT for KSD00914D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS m"
+            "expected": "Your curr loan EMI AMT for KSD00914D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS"
         },
         {
             "date": "2/18/2018 21:43",
@@ -1047,13 +1047,13 @@
             "date": "2/18/2018 21:43",
             "addr": "AXISBK",
             "body": "Your curr loan EMI RS.50400 for SXV00473D due on 21Sep2018. Pls pay or ensure suff bal on presentation. Ignore if paid already. For Queries call 03364582652 mail us in reach4loan@indusind.com",
-            "expected": "Your curr loan EMI AMT for SXV00473D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS m"
+            "expected": "Your curr loan EMI AMT for SXV00473D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS"
         },
         {
             "date": "2/18/2018 21:43",
             "addr": "AXISBK",
             "body": "Your curr loan EMI RS.50400 for SXV00473D due on 21Sep2018. Pls pay or ensure suff bal on presentation. Ignore if paid already. For Queries call 03364582652 mail us in reach4loan@indusind.com",
-            "expected": "Your curr loan EMI AMT for SXV00473D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS m"
+            "expected": "Your curr loan EMI AMT for SXV00473D due on DATE Pls pay or ensure suff bal on presentation Ignore if paid already For Queries call NUM mail us in EMAILADDRESS"
         },
         {
             "date": "2/18/2018 21:43",
@@ -3021,7 +3021,7 @@
           "date": "26-10-2017 23:57",
           "body": "Your A/c XX0362 Debited INR 9,500.00 on 06-Aug-18 09:22:41 * ATM-INDUSIND BANK LIM/CHENNAI * Avl Bal is INR 1,906.16\nOther Bank ATM Txns Count:1",
           "addr": "KVBANK",
-          "expected":"Your A\/c INSTRNO Debited AMT on DATE * ATM INDUSIND BANK LIM\/CHENNAI * Avl Bal is AMT Other Bank ATM Txns Count NUM"
+          "expected":"Your A\/c INSTRNO Debited AMT on DATE * ATM INDUSIND BANK LIM\/CHENNAI * Avl Bal is AMT Other Bank ATM Txns Count DATE"
         },
         {
           "date": "26-10-2017 23:57",
@@ -3315,19 +3315,19 @@
             "date": "26-10-2017 23:57",
             "body": "Cheque No:33102261 is Lodged through clearing in your SB A/c **********01988 to debit Rs. 9350 on 31-08-2018. Avbl Bal Rs:26545.08.Toll Free No 1800-222-244",
             "addr": "UNIONB",
-            "expected":"Cheque No NUM is Lodged through clearing in your SB A\/c INSTRNO to debit AMT on DATE Avbl Bal AMT Toll Free No NUM"
+            "expected":"Cheque No NUM is Lodged through clearing in your SB A\/c INSTRNO to debit AMT on DATE Avbl Bal AMT Toll Free No INSTRNO"
         },
         {
             "date": "26-10-2017 23:57",
             "body": "Rs. 11955.9 Withdrawn from your A/c *********003774 Details: IMPS/824620407326/P2A/MOB/0/ca.Tot Bal:48167.18CR Avl Amt:- 48167.18(03-09-2018 19:59:42)",
             "addr": "VIJBNK",
-            "expected":"AMT Withdrawn from your A\/c INSTRNO Details IMPS\/824620407326\/P2A\/MOB\/0\/ca Tot Bal AMT CR Avl AMT DATE"
+            "expected":"AMT Withdrawn from your A\/c INSTRNO Details IMPS\/824620407326\/P2A\/MOB\/0\/ca Tot Bal AMT CR Avl AMT AMT DATE"
         },
         {
             "date": "26-10-2017 23:57",
             "body": "Rs. 1 Deposited to your A/c *********015455 Details: IMPS/818614224344/P2A/.Tot Bal:9930.86CR Avl Amt:- 9930.86(05-07-2018 14:58:58)",
             "addr": "VIJBNK",
-            "expected":"AMT Deposited to your A\/c INSTRNO Details IMPS\/818614224344\/P2A\/ Tot Bal AMT CR Avl AMT DATE"
+            "expected":"AMT Deposited to your A\/c INSTRNO Details IMPS\/818614224344\/P2A\/ Tot Bal AMT CR Avl AMT AMT DATE"
         },
         {
             "date": "26-10-2017 23:57",
@@ -3813,7 +3813,7 @@
             "date": "26-07-2020 23:57",
             "body": "Your current plan Rs399- 2m- 1.5GB/Day for Jio number 9029380002 will expire on 13-Jun-20 14:40 Hrs. After current plan expiry, your services will stop working if you do not recharge with a plan. To recharge, click https://www.jio.com/recharge_singleclick?planId=1008398&utm_source=NE&utm_medium=SMS&utm_campaign=PPlan_expiry\nDial 1991, to know your current balance, validity, plan details and for exciting recharge plans.",
             "addr": "JIOPAY",
-            "expected":"Your current plan AMT m DATA \/Day for Jio number NUM will expire on DATE After current plan expiry your services will stop working if you do not recharge with a plan To recharge click URL Dial NUM to know your current balance validity plan details and for exciting recharge plans"
+            "expected":"Your current plan AMT 2m DATA \/Day for Jio number NUM will expire on DATE After current plan expiry your services will stop working if you do not recharge with a plan To recharge click URL Dial NUM to know your current balance validity plan details and for exciting recharge plans"
         },
         {
             "date": "26-07-2020 23:57",
@@ -3843,13 +3843,13 @@
             "date": "26-07-2020 23:57",
             "body": "Your plan Rs199- 1m- 1.5GB/Day for Jio Number 8073652948 has expired on 02-Jul-20 14:16 Hrs. To continue enjoying Jio services, recharge immediately. To recharge, click https://www.jio.com/recharge_singleclick?planId=1008395&utm_source=NE&utm_medium=SMS&utm_campaign=Plan_expiry\nDial 1991, to know your current balance, validity, plan details and for exciting recharge plans.",
             "addr": "JIOPAY",
-            "expected":"Your plan AMT m DATA \/Day for Jio Number NUM has expired on DATE To continue enjoying Jio services recharge immediately To recharge click URL Dial NUM to know your current balance validity plan details and for exciting recharge plans"
+            "expected":"Your plan AMT 1m DATA \/Day for Jio Number NUM has expired on DATE To continue enjoying Jio services recharge immediately To recharge click URL Dial NUM to know your current balance validity plan details and for exciting recharge plans"
         },
         {
             "date": "26-07-2020 23:57",
             "body": "Your current plan Rs199- 1m- 1.5GB/Day for Jio number 8073652948 will expire on 04-Jun-20 10:52 Hrs. After current plan expiry, your services will stop working if you do not recharge with a plan. To recharge, click https://www.jio.com/recharge_singleclick?planId=1008395&utm_source=NE&utm_medium=SMS&utm_campaign=PPlan_expiry\nDial 1991, to know your current balance, validity, plan details and for exciting recharge plans.",
             "addr": "JIOPAY",
-            "expected":"Your current plan AMT m DATA \/Day for Jio number NUM will expire on DATE After current plan expiry your services will stop working if you do not recharge with a plan To recharge click URL Dial NUM to know your current balance validity plan details and for exciting recharge plans"
+            "expected":"Your current plan AMT 1m DATA \/Day for Jio number NUM will expire on DATE After current plan expiry your services will stop working if you do not recharge with a plan To recharge click URL Dial NUM to know your current balance validity plan details and for exciting recharge plans"
         },
         {
             "date": "26-07-2020 23:57",
@@ -3999,7 +3999,7 @@
             "addr": "BMSHOW",
             "body": "Rs. 50 has been deducted from MyWallet account for purchase on BookMyShow with Booking ID WFFQ6JZ. Your updated account balance is Rs. 0.00. ",
             "date": "28-10-17 08:55",
-            "expected":"AMT has been deducted from MyWallet account for purchase on BookMyShow with Booking ID IDVAL Your updated account balance is Rs AMT"
+            "expected":"AMT has been deducted from MyWallet account for purchase on BookMyShow with Booking ID IDVAL Your updated account balance is AMT"
         },
         {
             "addr": "BMSHOW",
@@ -4599,7 +4599,7 @@
             "date": "26-10-2017 23:57",
             "body": "Shine on this festive season. Get Levi's worth Rs 1000 Free on purchase of Rs 5999 & Worth Rs 2000 on purchase of Rs 9999. *T&C. To opt out call: 8551050501\n3:05\n",
             "addr": "BSNL",
-            "expected":"Shine on this festive season Get Levi's worth AMT Free on purchase of AMT & Worth AMT on purchase of AMT T&C To opt out call NUM TIME"
+            "expected":"Shine on this festive season Get Levi's worth AMT Free on purchase of AMT & Worth AMT on purchase of AMT *T&C To opt out call NUM TIME"
         },
         {
             "date": "26-10-2017 23:57",
@@ -4905,7 +4905,7 @@
             "date": "2/19/2018 13:00",
             "addr": "PNBSMS",
             "body": "Ac XXXXXXXX00159260 Credited with Rs.360000.00,27-09-2017 14:30:54 thru NEFT from DEARCH ARCHITECTS. Aval Bal 405397.12 CR Helpline 18001802222",
-            "expected":"Ac INSTRNO Credited with AMT thru NEFT from DEARCH ARCHITECTS Aval Bal AMT CR Helpline NUM"
+            "expected":"Ac INSTRNO Credited with AMT TIME thru NEFT from DEARCH ARCHITECTS Aval Bal AMT CR Helpline NUM"
         },
         {
             "date": "2/19/2018 13:00",
@@ -4917,13 +4917,13 @@
             "date": "2/19/2018 13:00",
             "addr": "PNBSMS",
             "body": "Ac XXXXXXXX00000020 Debited with Rs.200000.00,30-08-2017 11:24:37 for RTGS to SHADES OF WEB UTR PUNBR52017083017504114 Aval Bal 603460.70 . Remit RTGS online through PNB Internet Banking. Easy & convenient; Visit www.pnbindia.in",
-            "expected":"Ac INSTRNO Debited with AMT for RTGS to SHADES OF WEB UTR IDVAL Aval Bal AMT Remit RTGS online through PNB Internet Banking Easy & convenient; Visit URL",
+            "expected":"Ac INSTRNO Debited with AMT TIME for RTGS to SHADES OF WEB UTR IDVAL Aval Bal AMT Remit RTGS online through PNB Internet Banking Easy & convenient; Visit URL",
         },
         {
             "date": "2/19/2018 13:00",
             "addr": "PNBSMS",
             "body": "Ac XXXXXXXX00236655 Credited with Rs.10000.00,11-09-2017 10:09:42 thru NEFT from KULDIP  SINGH. Aval Bal 104679.22 CR Helpline 18001802222",
-            "expected":"Ac INSTRNO Credited with AMT thru NEFT from KULDIP SINGH Aval Bal AMT CR Helpline NUM"
+            "expected":"Ac INSTRNO Credited with AMT TIME thru NEFT from KULDIP SINGH Aval Bal AMT CR Helpline NUM"
         },
         {
             "date": "2/19/2018 13:00",
@@ -4935,19 +4935,19 @@
             "date": "2/19/2018 13:00",
             "addr": "PNBSMS",
             "body": "Ac XXXXXXXX00005835 Credited with Rs.10000.00,03-02-2018 08:32:48 thru NEFT from Wing Commander SATISH KUMAR PI. Aval Bal 13972.02 CR Helpline 18001802222",
-            "expected":"Ac INSTRNO Credited with AMT thru NEFT from Wing Commander SATISH KUMAR PI Aval Bal AMT CR Helpline NUM"
+            "expected":"Ac INSTRNO Credited with AMT TIME thru NEFT from Wing Commander SATISH KUMAR PI Aval Bal AMT CR Helpline NUM"
         },
         {
             "date": "2/19/2018 13:00",
             "addr": "PNBSMS",
             "body": "Ac XXXXXXXX00002134 Debited with Rs.700000.00,31-07-2017 15:42:54 for RTGS to NANDAN DENIM LTD UTR PUNBR52017073117058802 Aval Bal 72304.05 CR Helpline 18001802222 Remit RTGS online through PNB Internet Banking. Easy & convenient; Visit www.pnbindia.in",
-            "expected":"Ac INSTRNO Debited with AMT for RTGS to NANDAN DENIM LTD UTR IDVAL Aval Bal AMT CR Helpline NUM Remit RTGS online through PNB Internet Banking Easy & convenient; Visit URL"
+            "expected":"Ac INSTRNO Debited with AMT TIME for RTGS to NANDAN DENIM LTD UTR IDVAL Aval Bal AMT CR Helpline NUM Remit RTGS online through PNB Internet Banking Easy & convenient; Visit URL"
         },
         {
             "date": "2/19/2018 13:00",
             "addr": "PNBSMS",
             "body": "Ac XXXXXXXX01212718 Credited with Rs.2647.00,25-05-2016 10:05:22 thru NEFT from PR CDA OFFICERS PUNE PR C. Aval Bal Rs.726564.10 CR. Helpline 18001802222",
-            "expected":"Ac INSTRNO Credited with AMT thru NEFT from PR CDA OFFICERS PUNE PR C Aval Bal AMT CR Helpline NUM"
+            "expected":"Ac INSTRNO Credited with AMT TIME thru NEFT from PR CDA OFFICERS PUNE PR C Aval Bal AMT CR Helpline NUM"
         },
         {
             "date": "2/19/2018 13:00",
@@ -5559,7 +5559,7 @@
             "date": "26-10-2017 23:57",
             "body": "Cheque No:10047605 is Lodged through clearing in your SB A/c xx1234 to debit Rs 3000 on 11/11/20 Avbl Bal Rs:2538441 88 Toll Free No 1231231230",
             "addr": "UNIONB",
-            "expected":"Cheque No NUM is Lodged through clearing in your SB A\/c INSTRNO to debit AMT on DATE Avbl Bal AMT Toll Free No NUM"
+            "expected":"Cheque No NUM is Lodged through clearing in your SB A\/c INSTRNO to debit AMT on DATE Avbl Bal AMT NUM Toll Free No NUM"
         },
         {
             "date": "26-10-2017 23:57",
